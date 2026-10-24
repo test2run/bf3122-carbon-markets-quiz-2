@@ -1,0 +1,2331 @@
+{
+  "meta": {
+    "course": "BF3122",
+    "title": "Sectoral Approaches, Claims & Commercial Considerations",
+    "scope": "Weeks 6, 9–10 (Quiz 2)",
+    "version": "1.0",
+    "updated": "2026-10-24",
+    "note": "Every question tests applied or conceptual understanding. No question asks you to recall a statistic, date or figure for its own sake; where numbers appear they are scenario inputs to reason with."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "week": 6,
+      "name": "Aviation emissions & ICAO's role"
+    },
+    {
+      "id": "t2",
+      "week": 6,
+      "name": "CORSIA design & offsetting obligations"
+    },
+    {
+      "id": "t3",
+      "week": 6,
+      "name": "Eligible units, fuels, criticisms & the EU"
+    },
+    {
+      "id": "t4",
+      "week": 9,
+      "name": "Claims, greenwashing & claim vocabulary"
+    },
+    {
+      "id": "t5",
+      "week": 9,
+      "name": "VCMI & SBTi standards"
+    },
+    {
+      "id": "t6",
+      "week": 9,
+      "name": "Government guidance & legal nature of credits"
+    },
+    {
+      "id": "t7",
+      "week": 10,
+      "name": "Transaction pathways"
+    },
+    {
+      "id": "t8",
+      "week": 10,
+      "name": "Risk, contracts & insurance"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q001",
+      "topic": "t1",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "A climate NGO reviews Singapore's NDC and notices that emissions from Singapore Airlines' long-haul flights to London are not counted anywhere in it. What is the best explanation?",
+      "options": [
+        "International aviation emissions are reported separately from NDCs, and their governance sits with ICAO instead.",
+        "The emissions are allocated to the UK as the destination State, so they appear in the UK's NDC rather than Singapore's.",
+        "Aviation emissions are left out of NDCs only during CORSIA's voluntary phases and are brought back in from 2027.",
+        "Singapore covers those flights under its domestic carbon tax, which is accounted for outside its NDC entirely."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Emissions from international aviation are reported separately and are not included in NDCs. ICAO, a UN specialised agency, governs this space, which is why the sector needed a mechanism of its own.",
+        "No State takes on international flight emissions in its NDC, whether it is the origin or the destination. That gap is exactly why ICAO developed CORSIA.",
+        "The exclusion is not tied to CORSIA's phases. International aviation sits outside NDCs whatever phase CORSIA is in; 2027 is when CORSIA's Second Phase becomes mandatory.",
+        "Singapore's carbon tax does not reach international flights, and in any case a domestic instrument would not take emissions out of NDC accounting."
+      ],
+      "takeaway": "International aviation sits outside national NDCs, which is why ICAO governs it through a sector scheme.",
+      "source": "W6 p6; p27 recap 1"
+    },
+    {
+      "id": "q002",
+      "topic": "t1",
+      "week": 6,
+      "difficulty": 1,
+      "skill": "apply",
+      "stem": "A Japanese airline asks whether its busy Tokyo–Sapporo route will add to its CORSIA offsetting obligation. What should it be told?",
+      "options": [
+        "No, because Japan has not volunteered for the First Phase, so none of its airlines' routes are covered yet.",
+        "Yes, because CORSIA covers every flight by an operator registered in a participating State, wherever it flies.",
+        "Yes, but only from 2027, when CORSIA's mandatory Second Phase extends coverage to domestic routes as well.",
+        "No, because CORSIA covers only international flights, and domestic routes fall under national NDC accounting."
+      ],
+      "answer": 3,
+      "rationales": [
+        "The conclusion is right but the reason is not. Domestic routes are excluded because of CORSIA's scope, whatever Japan's participation status.",
+        "Coverage depends on the type of flight and the route, not just the operator's State. Domestic flights are excluded however large the operator.",
+        "The Second Phase makes participation mandatory for more States. It does not widen the scope to domestic flights, which stay excluded.",
+        "Correct. CORSIA's scope is limited to international flights. Domestic aviation emissions are part of each country's own NDC, so a domestic route adds nothing to a CORSIA obligation."
+      ],
+      "takeaway": "CORSIA covers international flights only; domestic aviation stays within national NDCs.",
+      "source": "W6 p6, p9"
+    },
+    {
+      "id": "q003",
+      "topic": "t1",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "An investor asks why the aviation sector, unlike road transport, leans so heavily on offsetting to meet its near-term targets. Which answer best reflects the course material?",
+      "options": [
+        "Aircraft efficiency gains have already been fully exhausted, so no further in-sector technological cuts are expected.",
+        "Long-haul flight cannot yet be electrified, so in-sector cuts rely on sustainable aviation fuel, which is still too scarce.",
+        "Aviation's share of global emissions is too small to justify direct regulation, so offsets are the cheaper policy route.",
+        "International law bars States from setting fuel standards for airlines, which leaves offsetting as the only lever left."
+      ],
+      "answer": 1,
+      "rationales": [
+        "Aircraft technology and operational improvements are still part of the basket of measures. They are simply expected to contribute less than CORSIA.",
+        "Correct. Aviation is hard to abate: existing technology cannot electrify long-haul international travel, and SAF, the main near-term lever, needs to be scaled considerably.",
+        "The case for offsetting rests on technical constraints, not on the sector being too small to matter. Its emissions grew faster than rail, road or shipping between 2000 and 2019.",
+        "Nothing in the course suggests such a legal bar. ICAO's role is to promote uniform standards, and CORSIA itself sets rules for eligible fuels."
+      ],
+      "takeaway": "Aviation is hard to abate because long-haul flight cannot yet be electrified and SAF supply is limited.",
+      "source": "W6 p4-5, p8"
+    },
+    {
+      "id": "q004",
+      "topic": "t1",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "predict",
+      "stem": "ICAO's projection of international aviation emissions shows a 'basket of measures' closing the gap above the carbon neutral growth line. If CORSIA were removed but technology and operational gains arrived as projected, what would most likely happen?",
+      "options": [
+        "The goal would be missed only slightly, since CORSIA is designed as a small backstop for the last residual tonnes.",
+        "Emissions would overshoot the goal by a wide margin, since CORSIA is projected to close the largest share of the gap.",
+        "The goal would lapse automatically, since without CORSIA the baseline would revert to 2020 levels for all operators.",
+        "The goal would still broadly be met, since technology and operational gains are projected to close most of the gap."
+      ],
+      "answer": 1,
+      "rationales": [
+        "CORSIA is not a minor backstop. It is expected to be the most significant measure in the basket.",
+        "Correct. ICAO's chart shows CORSIA, including eligible fuels, as by far the biggest wedge. Aircraft technology and operational improvements are thin slices, which reflects aviation's technological constraints.",
+        "Removing a measure does not change the baseline, and 2020 was deliberately avoided as a reference because of COVID.",
+        "This reverses the chart. Technology and operations are the smaller wedges; CORSIA carries most of the load."
+      ],
+      "takeaway": "Given aviation's technological limits, CORSIA is expected to be the largest measure in the basket.",
+      "source": "W6 p8"
+    },
+    {
+      "id": "q005",
+      "topic": "t1",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "An analyst suggests that CORSIA should have used 2020 emissions as its baseline, as it was the most recent full year before offsetting began. What is the main problem with this suggestion?",
+      "options": [
+        "Pre-pandemic flight bookings inflated 2020 emissions, so a 2020 baseline would set a reference that is far too lenient.",
+        "2020 predates the Paris Agreement's entry into force, so units measured against it could not be adjusted correspondingly.",
+        "Member States never reported their 2020 emissions to ICAO, so no verified sector figure exists for that year at all.",
+        "COVID-19 depressed 2020 emissions, so a 2020 baseline would set an unrealistically low and very costly reference."
+      ],
+      "answer": 3,
+      "rationales": [
+        "The direction is wrong. 2020 emissions were sharply lower, not inflated, because of the pandemic.",
+        "The Paris Agreement entered into force in 2016. The post-2020 point matters for unit vintages, not for choosing the baseline year.",
+        "Data availability was not the issue. The objection is that 2020 was an outlier year.",
+        "Correct. Air travel collapsed in 2020. A baseline set there would treat almost any recovery as growth to be offset, making the target far harder and costlier to hit."
+      ],
+      "takeaway": "2020 was a COVID outlier, which is why CORSIA's baseline is anchored on 2019.",
+      "source": "W6 p8, p16"
+    },
+    {
+      "id": "q006",
+      "topic": "t1",
+      "week": 6,
+      "difficulty": 1,
+      "skill": "compare",
+      "stem": "Which statement best describes the aviation sector's 'carbon neutral growth' goal that CORSIA is designed to support?",
+      "options": [
+        "Total sector emissions are capped at 2019 levels, with allowances auctioned for any flights that would exceed the cap.",
+        "Each airline must reach zero net emissions on new routes it launches, while existing routes stay exempt from offsetting.",
+        "Emissions must fall below 2019 levels every year, with offsets used only to cover residual emissions left at the end.",
+        "Net international aviation emissions are held at a baseline level, with any growth above it offset by emissions units."
+      ],
+      "answer": 3,
+      "rationales": [
+        "CORSIA is not a cap-and-trade scheme, and it auctions no allowances. Airlines buy and cancel emissions units to cover growth above the baseline.",
+        "The goal is defined for the sector as a whole, not route by route, and existing routes are not exempt.",
+        "That describes an absolute reduction pathway. Carbon neutral growth only freezes net emissions at the baseline.",
+        "Correct. The goal is relative to the baseline: emissions above the reference level are offset, so net emissions stop growing. Gross emissions can still rise."
+      ],
+      "takeaway": "Carbon neutral growth is relative: it offsets growth above a baseline rather than cutting absolute emissions.",
+      "source": "W6 p4, p8"
+    },
+    {
+      "id": "q007",
+      "topic": "t1",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "A journalist asks which organisation set up CORSIA and calculates the sector growth factor that drives each airline's obligation. Which is it?",
+      "options": [
+        "ICAO, the specialised UN agency founded under the Chicago Convention to harmonise civil aviation rules.",
+        "The Technical Advisory Body, which ICAO set up to run CORSIA separately from the scheme's member States.",
+        "The UNFCCC Secretariat, which governs NDC accounting and so oversees any emissions excluded from NDCs.",
+        "IATA, the airline trade association that publishes the CORSIA Handbook and represents airline operators."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. ICAO adopted CORSIA in 2016 and calculates the sector growth factor each year from data reported by member States. Its mandate is uniformity in civil aviation regulation.",
+        "The TAB is part of ICAO, but its job is narrower: it assesses which crediting programmes and units are eligible. It does not run the scheme or set obligations.",
+        "The UNFCCC handles NDCs. International aviation was left to ICAO precisely because it falls outside NDCs.",
+        "IATA appears in the sources as a commentator and publisher of guidance, but it is an industry body. It neither created CORSIA nor calculates obligations."
+      ],
+      "takeaway": "ICAO, a UN specialised agency, governs international aviation emissions and runs CORSIA.",
+      "source": "W6 p6, p15, p18"
+    },
+    {
+      "id": "q008",
+      "topic": "t2",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "Assuming both States on each route participate in CORSIA, which of these flights falls within CORSIA's scope?",
+      "options": [
+        "An international patient-transfer flight by a civil helicopter operator between two participating States.",
+        "An international troop-transport flight by an air force aeroplane between two participating States.",
+        "A long domestic flight by a large civil aeroplane operator within a single participating State's borders.",
+        "An international cargo flight operated by a civil aeroplane operator between two participating States."
+      ],
+      "answer": 3,
+      "rationales": [
+        "Helicopters are excluded; CORSIA covers aeroplanes only. A patient transfer may also count as a humanitarian flight, which is excluded too.",
+        "State flights such as military, customs and police are excluded. Only civil flights count.",
+        "Domestic flights are excluded whatever the operator's size. CORSIA covers international aviation only.",
+        "Correct. It is international, civil and flown by an aeroplane. Cargo flights are not excluded, so the flight is in scope."
+      ],
+      "takeaway": "CORSIA's scope is international, civil, aeroplane flights, and it covers CO2 only.",
+      "source": "W6 p9 (must know)"
+    },
+    {
+      "id": "q009",
+      "topic": "t2",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "During the First Phase, Singapore participates in CORSIA but Brazil does not. Singapore Airlines operates a route between the two countries. What is the airline's obligation on that route?",
+      "options": [
+        "It owes neither monitoring nor offsetting, since a non-participating State takes the whole route out of CORSIA.",
+        "It owes offsetting on half the route's emissions, since only one of the two States on the route is participating.",
+        "It must monitor and report the route's CO2, but owes no offsetting on it while Brazil stays outside CORSIA.",
+        "It owes full offsetting on the route, since obligations follow the operator's home State rather than the route."
+      ],
+      "answer": 2,
+      "rationales": [
+        "MRV obligations still apply on routes that are not subject to offsetting. Only the offsetting duty falls away.",
+        "There is no half-route split. The route either carries an offsetting requirement or it does not.",
+        "Correct. CORSIA is route-based. Offsetting applies only when both States on a route participate. MRV still applies, so the airline must monitor and report even when it has nothing to offset.",
+        "Obligations are route-based, not determined by the State where the operator is registered."
+      ],
+      "takeaway": "Offsetting applies only if both States on a route participate; MRV applies regardless.",
+      "source": "W6 p13 (route-based diagram); p27 recap 2"
+    },
+    {
+      "id": "q010",
+      "topic": "t2",
+      "week": 6,
+      "difficulty": 3,
+      "skill": "predict",
+      "stem": "Brazil, China, India and Russia have stayed out of CORSIA's voluntary phases. A Brazilian carrier assumes it can keep avoiding offsetting on its São Paulo–Lisbon route indefinitely. Why is this assumption unsafe?",
+      "options": [
+        "From 2027 the Second Phase is mandatory for member States, and these large aviation markets meet no exemption.",
+        "Portugal's participation alone triggers offsetting on the route, since one participating State is enough.",
+        "From 2029 the route moves into the EU ETS, since Lisbon lies well within 5,000 km of the airport in Frankfurt.",
+        "From 2027 ICAO imposes penalties directly on carriers whose States stayed out of the voluntary phases."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. The Second Phase (2027–2035) is mandatory for member States unless an exemption applies, such as low RTK share or LDC, SIDS or LLDC status. These four are captured from 2027, whether or not they consent.",
+        "Offsetting needs both States on the route to participate. One participating State only creates MRV duties.",
+        "The EU proposal concerns where flights land relative to the EU, and São Paulo is far beyond 5,000 km. It is also only a proposal. Lisbon's distance from Frankfurt is irrelevant.",
+        "ICAO has no enforcement mechanism of its own. Penalties are left to individual States, which is one of the main criticisms of CORSIA."
+      ],
+      "takeaway": "The Second Phase is mandatory from 2027, which captures the large non-volunteers unless they are exempt.",
+      "source": "W6 p10-11; p27 recap 3"
+    },
+    {
+      "id": "q011",
+      "topic": "t2",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "Thailand volunteers for CORSIA's First Phase. A Thai airline argues that because participation is voluntary, it can choose to opt out. What is the correct response?",
+      "options": [
+        "The airline may opt out of offsetting but not MRV, since the voluntary phases only make reporting mandatory.",
+        "The airline may defer until 2027, since a State's decision to volunteer only binds airlines from the Second Phase.",
+        "The airline may opt out, since the voluntary phases let each airline decide for itself whether to participate.",
+        "Participation is voluntary for the State, but once the State takes part, compliance is mandatory for its airlines."
+      ],
+      "answer": 3,
+      "rationales": [
+        "Offsetting is not optional for airlines of a participating State on routes where both ends participate.",
+        "Volunteering binds the State's operators from the phase it joins, not only from 2027.",
+        "Airlines do not choose. The choice to volunteer belongs to the State.",
+        "Correct. Voluntariness operates at State level. Once a member State participates, its airline operators must comply."
+      ],
+      "takeaway": "The voluntary phases are voluntary for States; once a State is in, compliance is mandatory for its airlines.",
+      "source": "W6 p10-11"
+    },
+    {
+      "id": "q012",
+      "topic": "t2",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "Which State is most likely to remain exempt from CORSIA's mandatory Second Phase?",
+      "options": [
+        "A State with fast-growing airlines that would face a sharp rise in offsetting costs under the scheme.",
+        "A large emerging economy that declined to volunteer for either the Pilot Phase or the First Phase.",
+        "A Small Island Developing State whose airlines carry only a very small share of international air traffic.",
+        "A high-income State whose airlines fly mostly domestic routes but also run some long international ones."
+      ],
+      "answer": 2,
+      "rationales": [
+        "High compliance costs are not an exemption ground. Fast growth also means higher RTK activity, not less.",
+        "Not volunteering earlier earns no exemption. Brazil, China, India and Russia are captured from 2027 anyway.",
+        "Correct. It meets both exemption grounds: socio-economic (SIDS, alongside LDCs and LLDCs) and aviation activity (a low RTK share).",
+        "Being high-income meets neither criterion. Its international flights are covered once the Second Phase applies."
+      ],
+      "takeaway": "Second Phase exemptions rest on RTK-based aviation thresholds and on LDC, SIDS and LLDC status.",
+      "source": "W6 p10"
+    },
+    {
+      "id": "q013",
+      "topic": "t2",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "Why does CORSIA phase in participation rather than bind every member State from 2021?",
+      "options": [
+        "To let airlines bank surplus allowances from early phases and so smooth their compliance costs across cycles.",
+        "To let emissions unit prices rise gradually, since each phase sets a higher floor price for units than the last.",
+        "To reflect the special circumstances and capabilities of developing States while keeping market distortion low.",
+        "To give ICAO time to move aviation into NDCs, since international flights are due to join NDCs from 2035."
+      ],
+      "answer": 2,
+      "rationales": [
+        "CORSIA is not an allowance scheme, so there are no surplus allowances to bank. Airlines cancel emissions units.",
+        "CORSIA sets no price floor. Unit prices come from the market.",
+        "Correct. ICAO frames the phasing as taking into account the special circumstances and respective capabilities of States, in particular developing States, while minimising market distortion.",
+        "There is no plan to move international aviation into NDCs. CORSIA exists because it sits outside them."
+      ],
+      "takeaway": "Phasing balances developing States' capabilities against the risk of market distortion.",
+      "source": "W6 p10"
+    },
+    {
+      "id": "q014",
+      "topic": "t2",
+      "week": 6,
+      "difficulty": 3,
+      "skill": "compare",
+      "stem": "A Gulf airline's emissions are growing much faster than the sector average. Comparing CORSIA's design before and after the 2022 review, which would it prefer, and why?",
+      "options": [
+        "The post-2022 design, since it drops the sectoral component and charges each airline only for its own growth.",
+        "Neither design, since the weightings only reallocate costs and leave each airline's total bill unchanged.",
+        "The post-2022 design, since the individual component stays at 0% until 2033 and is capped at 15% after that.",
+        "The pre-2022 design, since a heavier individual weighting rewards airlines growing faster than the sector."
+      ],
+      "answer": 2,
+      "rationales": [
+        "The post-2022 design keeps the sectoral component dominant. The individual component is at most 15% and only in 2033–35.",
+        "Shifting the weight between sectoral and individual growth changes each airline's bill, because each airline's growth differs from the sector's.",
+        "Correct. Before the review, the individual component had to reach at least 20% in 2030–32 and 70% in 2033–35. After it, the sectoral component is 100% until 2032 and 85% in 2033–35. A fast grower is charged mostly at the slower sector rate.",
+        "A heavier individual weighting penalises fast growers, because more of their bill tracks their own growth."
+      ],
+      "takeaway": "The 2022 review shifted weight toward the sectoral component, which favours fast-growing airlines.",
+      "source": "W6 p13, p16 (prof question)"
+    },
+    {
+      "id": "q015",
+      "topic": "t2",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "In CORSIA's early phases, an airline whose emissions grew 0% faces the same growth factor as a rival that grew 40%. Why does the scheme accept this?",
+      "options": [
+        "Its goal is to penalise mature airlines, whose low growth shows they underinvested in fuel efficiency.",
+        "Its designers had no operator-level emissions data, since MRV obligations only begin in the Second Phase.",
+        "Its goal is collective: it targets the sector's net emissions, so early obligations track sector-wide growth.",
+        "Its weighting follows Article 6, which requires collective accounting before crediting by individual operator."
+      ],
+      "answer": 2,
+      "rationales": [
+        "The design does not aim to punish mature airlines. A shared factor simply spreads the sector's growth across all operators in proportion to their emissions.",
+        "MRV applies from the start, even on routes with no offsetting. Operator data exist; the weighting is a design choice.",
+        "Correct. CORSIA serves the sector's goal, not individual airlines' goals. That is why the sectoral component starts at 100% and every operator applies the same sector growth factor.",
+        "Article 6 governs cooperation between countries. It does not set CORSIA's weighting between sectoral and individual growth."
+      ],
+      "takeaway": "CORSIA starts fully sectoral because it serves the sector's collective goal.",
+      "source": "W6 p13 (prof note)"
+    },
+    {
+      "id": "q016",
+      "topic": "t2",
+      "week": 6,
+      "difficulty": 3,
+      "skill": "apply",
+      "stem": "In 2025, an airline emits 650,000 tCO2 in total, of which 400,000 t is on routes subject to offsetting. Its 2019 emissions on those routes were 380,000 t. The sector growth factor is 20%. What is its offsetting requirement?",
+      "options": [
+        "400,000 tonnes, offsetting all emissions on routes subject to offsetting requirements in that year.",
+        "80,000 tonnes, applying the growth factor only to its emissions on routes subject to offsetting requirements.",
+        "20,000 tonnes, offsetting only the airline's own growth above its 380,000-tonne baseline on those routes.",
+        "130,000 tonnes, applying the growth factor to the airline's total emissions across all of its routes."
+      ],
+      "answer": 1,
+      "rationales": [
+        "CORSIA offsets growth above the baseline, not all emissions. The growth factor turns in-scope emissions into the share that must be offset.",
+        "Correct. Until 2033 only the sectoral component applies, and the State multiplies the growth factor by the operator's emissions on routes in scope: 400,000 × 20% = 80,000 t.",
+        "This applies the airline's own growth, which is the individual component. That component is weighted 0% before 2033.",
+        "Only emissions on routes where both States participate count. Routes with MRV only drop out of the calculation."
+      ],
+      "takeaway": "Requirement = sector growth factor × operator's in-scope emissions (sectoral component only until 2033).",
+      "source": "W6 p13-15"
+    },
+    {
+      "id": "q017",
+      "topic": "t2",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "Singapore Airlines wants to confirm how many emissions units it must cancel for the First Phase. Who determines that figure, and how?",
+      "options": [
+        "The Technical Advisory Body, which sets each airline's obligation when it approves eligible programmes.",
+        "ICAO, which calculates each airline's requirement directly from route data that the airline submits to it.",
+        "Singapore, which applies ICAO's sector growth factor to the airline's in-scope emissions and then notifies it.",
+        "The airline itself, which assesses its own requirement and has it confirmed by its verification body."
+      ],
+      "answer": 2,
+      "rationales": [
+        "The TAB assesses which crediting programmes and units are eligible. It plays no part in setting operators' obligations.",
+        "ICAO's role stops at the sector growth factor. Operator-level requirements are worked out by the State.",
+        "Correct. ICAO calculates the sector growth factor from data reported by States. The State then works out each operator's requirement and tells the airline.",
+        "The airline reports its emissions, which are verified, but the requirement itself is calculated and notified by the State."
+      ],
+      "takeaway": "ICAO sets the growth factor; the State turns it into each airline's requirement.",
+      "source": "W6 p15 (prof note)"
+    },
+    {
+      "id": "q018",
+      "topic": "t2",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "An airline treasurer plans to buy and cancel eligible emissions units at the end of 2024, 2025 and 2026, each time matching that year's offsetting requirement. What has the treasurer misunderstood?",
+      "options": [
+        "Cancellation is annual, but it must happen before each year's emissions report rather than after verification.",
+        "Monitoring is annual, but cancellation happens once per three-year compliance period, after that period ends.",
+        "Monitoring and cancellation both happen only once per period, so no emissions are reported before 2028.",
+        "Cancellation happens only once the State imposes a penalty, so buying and cancelling units in advance is wasted."
+      ],
+      "answer": 1,
+      "rationales": [
+        "Cancellation is not annual. The three-year cycle is the key feature here.",
+        "Correct. Emissions are monitored and reported every year, but units are cancelled once for the whole compliance period. For the First Phase that is by 31 January 2028, with the report due by 30 April. In effect, you emit for three years, then pay once.",
+        "Monitoring and reporting are annual even though cancellation is not.",
+        "Penalties are not what triggers cancellation. Cancellation is the compliance obligation; penalties only follow if it is not met."
+      ],
+      "takeaway": "CORSIA monitors annually but cancels once per three-year compliance period.",
+      "source": "W6 p11-12"
+    },
+    {
+      "id": "q019",
+      "topic": "t2",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "predict",
+      "stem": "Before the 2022 review, CORSIA's baseline was the average of 2019 and 2020 emissions; it is now 85% of 2019. Compared with the old rule, the change most likely:",
+      "options": [
+        "Tightened obligations, since 85% of 2019 is lower than any average that includes the pre-pandemic year 2019.",
+        "Eased obligations, since COVID-depressed 2020 data would have dragged down the average and the reference with it.",
+        "Tightened obligations, since basing the reference on a single year removes the smoothing that averaging gives.",
+        "Left obligations unchanged, since the baseline matters only for the individual component, which is 0% until 2033."
+      ],
+      "answer": 1,
+      "rationales": [
+        "An average that includes a collapsed 2020 sits well below 85% of 2019, so the new baseline is the more lenient one.",
+        "Correct. 2020 emissions collapsed, so averaging them with 2019 would have set a very low reference. More growth would have needed offsetting, making the target harder and costlier.",
+        "Averaging only smooths when both years are typical. Here it would have pulled the reference down, not steadied it.",
+        "The baseline also drives the sector growth factor, which compares sector emissions with the baseline. It matters from the start."
+      ],
+      "takeaway": "Moving to 85% of 2019 avoided a COVID-distorted reference that would have made targets far costlier.",
+      "source": "W6 p8, p16"
+    },
+    {
+      "id": "q020",
+      "topic": "t3",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "Gold Standard wants credits issued under its programme to be usable for CORSIA compliance. What must it do?",
+      "options": [
+        "Apply to ICAO's Technical Advisory Body, which assesses its programme design and the quality of its credits.",
+        "Apply to ICVCM for a CCP label, which ICAO accepts as automatic proof that its units are CORSIA-eligible.",
+        "Obtain IATA endorsement, since the airline association maintains the official list of approved emissions units.",
+        "Ask each participating State to list its credits, since each State sets unit eligibility under its own rules."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Crediting programmes such as Verra and Gold Standard apply to the TAB, a body established under ICAO. It assesses both programme design and credit quality before units can be listed as eligible.",
+        "ICVCM's CCP label is a voluntary-market meta-standard. CORSIA eligibility runs through ICAO's own TAB process.",
+        "IATA is an industry association. It does not approve or list eligible units.",
+        "Eligibility is decided centrally through ICAO, not State by State. This keeps the units uniform across the scheme."
+      ],
+      "takeaway": "Crediting programmes qualify for CORSIA by applying to ICAO's Technical Advisory Body.",
+      "source": "W6 p18 (must know TAB)"
+    },
+    {
+      "id": "q021",
+      "topic": "t3",
+      "week": 6,
+      "difficulty": 3,
+      "skill": "apply",
+      "stem": "A Verra project began its first crediting period in 2014. It now holds credits with a 2022 vintage, backed by a host-country Letter of Authorisation. Can those credits be used for CORSIA's First Phase?",
+      "options": [
+        "Yes, because the 2022 vintage falls inside the 2021–2026 window, which is the only date test that applies.",
+        "Yes, because a Letter of Authorisation overrides the start-date rule for units that are correspondingly adjusted.",
+        "No, because the activity began its first crediting period before 2016, which rules out all of its units.",
+        "No, because First Phase units must carry 2024–2026 vintages that match the compliance period exactly."
+      ],
+      "answer": 2,
+      "rationales": [
+        "The vintage window is only one of the two tests. The start-date rule applies as well.",
+        "An LoA is required for eligibility, but it does not waive the 2016 start-date requirement.",
+        "Correct. Units must pass two date filters. The activity must have started its first crediting period in 2016 or later, and the vintage must fall in the phase's window. This project fails the first.",
+        "The First Phase accepts vintages from 2021 to 2026, not only those matching 2024–2026."
+      ],
+      "takeaway": "EEUs need a first crediting period starting in 2016 or later and a vintage inside the phase's window.",
+      "source": "W6 p19"
+    },
+    {
+      "id": "q022",
+      "topic": "t3",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "Why can't credits with pre-2021 vintages be used in CORSIA's First Phase, even when they come from an eligible programme?",
+      "options": [
+        "Article 6 accounting covers the post-2020 NDC period, so earlier reductions cannot be correspondingly adjusted.",
+        "Pre-2021 credits are too old to pass permanence tests, since reversal risk keeps rising as a vintage ages.",
+        "Pre-2021 credits were issued under the Kyoto Protocol, whose units ICAO excluded to protect prices under the CDM.",
+        "Pre-2021 credits were already used in the Pilot Phase, so reusing them in later phases would double-count them."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Article 6 accounting applies to reductions in the post-2020 NDC implementation period. ICAO therefore drew a hard line at 2021 for the compliance phases.",
+        "Permanence depends on the type of project, not the age of the vintage. Older avoidance credits face no special reversal risk.",
+        "Many pre-2021 credits came from voluntary programmes, not the Kyoto mechanisms, and protecting CDM prices was never ICAO's rationale.",
+        "Not every pre-2021 credit was used in the Pilot Phase. The cut-off rests on Article 6 accounting, not on double use."
+      ],
+      "takeaway": "The 2021 vintage cut-off aligns CORSIA with post-2020 Article 6 accounting.",
+      "source": "W6 p19 (annotation)"
+    },
+    {
+      "id": "q023",
+      "topic": "t3",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "Demand for First Phase units far exceeds eligible supply, even though eligible programmes have issued plenty of credits. What is the main bottleneck?",
+      "options": [
+        "Host governments have issued few Letters of Authorisation, so most credits cannot be correspondingly adjusted.",
+        "ICAO caps the units each programme may supply, to stop CORSIA unit prices from falling too far during Phase I.",
+        "Airlines have hoarded eligible units for the Second Phase, taking them off the market before First Phase cancellation.",
+        "Crediting programmes have issued too few credits overall, since project registration slowed sharply after 2020."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. EEUs need corresponding adjustments by the host country, which means a Letter of Authorisation. Most credits issued so far lack one, so supply stays constrained.",
+        "ICAO sets no supply caps. The constraint comes from host-country authorisation.",
+        "Hoarding is not the reason the course gives. Credits are ineligible in the first place because LoAs are missing.",
+        "Volume is not the problem. Many credits exist; few meet every eligibility requirement."
+      ],
+      "takeaway": "Host-country LoAs, needed for corresponding adjustments, are the binding constraint on CORSIA supply.",
+      "source": "W6 p20-21; p27 recap 4"
+    },
+    {
+      "id": "q024",
+      "topic": "t3",
+      "week": 6,
+      "difficulty": 3,
+      "skill": "apply",
+      "stem": "An airline buys certified sustainable aviation fuel that it would have bought anyway to meet a national blending mandate. Can it use that fuel to reduce its CORSIA offsetting requirements?",
+      "options": [
+        "No, because fuel bought to meet another mandate fails the additionality test and so cannot be claimed under CORSIA.",
+        "No, because fuels can reduce requirements only in the Second Phase, once the individual component starts to apply.",
+        "Yes, but only after the fuel savings are converted into EEUs through a crediting programme approved by the TAB.",
+        "Yes, because CORSIA eligible fuels do not need to be additional, unlike the emissions units used for offsetting."
+      ],
+      "answer": 3,
+      "rationales": [
+        "This applies the EEU additionality test to fuels. ICAO does not require additionality for eligible fuels.",
+        "Eligible fuels can reduce requirements across compliance periods. The individual component has nothing to do with this.",
+        "Fuel reductions are claimed directly against offsetting requirements and reported to the State. They are not converted into EEUs.",
+        "Correct. The volume of eligible fuel does not need to be incremental. Unlike EEUs, there is no need to show the reduction would not have happened anyway, so certified fuel with life-cycle values can be claimed against requirements."
+      ],
+      "takeaway": "CORSIA eligible fuels cut offsetting requirements directly and, unlike EEUs, need not be additional.",
+      "source": "W6 p22 (prof note)"
+    },
+    {
+      "id": "q025",
+      "topic": "t3",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "An NGO finds that two airlines that both fell short of their CORSIA obligations face very different consequences: one a heavy fine, the other almost nothing. Which feature of CORSIA best explains this?",
+      "options": [
+        "Penalties scale with each State's own growth factor, which differs according to where each airline is based.",
+        "ICAO sets fines according to operator size, so a larger airline faces heavier penalties for the same shortfall.",
+        "CORSIA leaves penalties for non-compliance to each State, so enforcement differs in severity and in clarity.",
+        "Penalties apply only under the EU ETS, so fines arise solely for airlines with a route touching the EEA."
+      ],
+      "answer": 2,
+      "rationales": [
+        "The growth factor is calculated for the whole sector and is the same for every State. It is not a penalty variable.",
+        "ICAO has no enforcement mechanism of its own and sets no fines.",
+        "Correct. Penalties for non-compliance are left to individual States, so they lack uniformity. The UK, for example, consulted on aligning its fine with the UK ETS, but not every participating State has done the same.",
+        "CORSIA penalties are set by each participating State. They are not limited to EU routes."
+      ],
+      "takeaway": "Penalties are left to each State, which is a key criticism of CORSIA's enforcement.",
+      "source": "W6 p23, p25"
+    },
+    {
+      "id": "q026",
+      "topic": "t3",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "A critic says CORSIA 'isn't really a carbon market in the cap-and-trade sense'. Which feature of its design most directly supports this criticism?",
+      "options": [
+        "It lets airlines trade units with one another, rather than requiring each to cancel credits under its own name.",
+        "It requires offsetting only of growth above a baseline, rather than setting a declining cap on total emissions.",
+        "It relies on carbon taxes set by each State, rather than on a price discovered through trading in a market.",
+        "It covers all six of the Kyoto greenhouse gases, which makes it impossible to compute a single per-tonne price."
+      ],
+      "answer": 1,
+      "rationales": [
+        "Trading between airlines is not the issue, and each airline does cancel its own units. The criticism is the missing cap.",
+        "Correct. CORSIA is an offsetting scheme, not a cap. It offsets emissions above a baseline and sets nothing specific after 2035, which is why critics call it not ambitious enough.",
+        "CORSIA does not rely on State carbon taxes. Airlines buy units in the market.",
+        "CORSIA covers CO2 only. Its narrow gas coverage is a separate criticism."
+      ],
+      "takeaway": "CORSIA offsets growth above a baseline; it does not cap absolute emissions.",
+      "source": "W6 p24; p27 recap 2"
+    },
+    {
+      "id": "q027",
+      "topic": "t3",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "An environmental group objects to one category of CORSIA eligible fuel. Which category draws this criticism, and why?",
+      "options": [
+        "Hydrogen fuel, because it cannot yet power long-haul aircraft and so the reductions claimed are overstated.",
+        "Synthetic kerosene, because its production emissions fall outside CORSIA's life-cycle accounting method.",
+        "Lower carbon aviation fuel, because it remains a fossil fuel even though it can cut offsetting requirements.",
+        "Sustainable aviation fuel, because its feedstocks compete with food crops and so can never be certified."
+      ],
+      "answer": 2,
+      "rationales": [
+        "Hydrogen is not the category criticised in the course material.",
+        "CORSIA uses life-cycle emissions values to work out the reduction from each fuel, so production emissions are accounted for.",
+        "Correct. Besides SAF, CORSIA allows lower carbon aviation fuel. Critics point out that this is still a fossil fuel.",
+        "SAF can be certified through approved sustainability certification schemes. It is the fuel CORSIA is meant to scale, not the target of this criticism."
+      ],
+      "takeaway": "Allowing lower carbon aviation fuel, which is still fossil, is a criticism of CORSIA's fuel rules.",
+      "source": "W6 p25"
+    },
+    {
+      "id": "q028",
+      "topic": "t3",
+      "week": 6,
+      "difficulty": 3,
+      "skill": "diagnose",
+      "stem": "Suppose every major State joined CORSIA and penalties were harmonised across all of them. Which criticism of CORSIA would still stand?",
+      "options": [
+        "Large emitters such as China and India remain outside the scheme, which limits its share of coverage.",
+        "It covers only CO2, which leaves aviation's other greenhouse gas impacts outside the scheme entirely.",
+        "Penalties for non-compliance are set State by State, so enforcement stays uneven and often unclear.",
+        "Airlines face different enforcement depending on their State, which distorts competition on shared routes."
+      ],
+      "answer": 1,
+      "rationales": [
+        "Universal participation would remove this criticism by assumption. In any case, these States are captured from 2027.",
+        "Correct. CO2-only coverage is built into CORSIA's scope. Wider participation and harmonised penalties would not change it.",
+        "Harmonised penalties would remove this criticism by assumption.",
+        "This follows from penalties being set by each State, which the scenario has assumed away."
+      ],
+      "takeaway": "CO2-only scope and limited ambition are design limits that wider participation does not fix.",
+      "source": "W6 p24-25"
+    },
+    {
+      "id": "q029",
+      "topic": "t3",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "Under the rules in force today, which regime covers a Paris–Berlin flight, and which covers a Singapore–Frankfurt flight?",
+      "options": [
+        "Paris–Berlin falls under the EU ETS only, while Singapore–Frankfurt falls under CORSIA only.",
+        "Both fall under the EU ETS and CORSIA, since every flight touching the EEA is covered by both.",
+        "Paris–Berlin falls under CORSIA only, while Singapore–Frankfurt falls under the EU ETS only.",
+        "Both fall under CORSIA only, since the EU ETS stopped covering aviation in 2012 to let CORSIA develop."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Today the EU ETS covers intra-EEA flights only, and extra-EEA long-haul flights such as Singapore–Frankfurt are left to CORSIA.",
+        "There is no blanket double coverage. The two regimes split flights by whether they are intra-EEA.",
+        "This reverses the split. Intra-EEA flights belong to the EU ETS.",
+        "In 2012 the EU suspended full scope only. Intra-EEA flights stayed in the EU ETS."
+      ],
+      "takeaway": "Today: intra-EEA flights are under the EU ETS; extra-EEA flights are under CORSIA.",
+      "source": "W6 p26 (annotation)"
+    },
+    {
+      "id": "q030",
+      "topic": "t3",
+      "week": 6,
+      "difficulty": 3,
+      "skill": "predict",
+      "stem": "If the European Commission's July 2026 proposal becomes law, how would Dubai–Frankfurt (about 4,850 km) and Singapore–Frankfurt (about 9,000 km) be treated from 2029?",
+      "options": [
+        "Singapore–Frankfurt would come under the EU ETS, while Dubai–Frankfurt would stay under CORSIA alone.",
+        "Neither would change, since the proposal only writes CORSIA into EU law and leaves the ETS scope as is.",
+        "Dubai–Frankfurt would come under the EU ETS, while Singapore–Frankfurt would stay under CORSIA alone.",
+        "Both would come under the EU ETS, since the proposal restores full scope to all flights to and from the EU."
+      ],
+      "answer": 2,
+      "rationales": [
+        "This reverses the distance logic. The extension captures the nearer destination, not the farther one.",
+        "The proposal does both: it extends the ETS to the 5,000 km band and writes CORSIA into EU law to 2035.",
+        "Correct. The proposal extends the EU ETS from 2029 to flights landing within 5,000 km of the EU. Dubai is inside that radius; Singapore is beyond it and stays with CORSIA.",
+        "The Commission chose a narrow response, not full scope. Flights beyond 5,000 km stay outside the EU ETS."
+      ],
+      "takeaway": "The 2029 proposal adds flights within 5,000 km to the EU ETS; longer flights stay with CORSIA.",
+      "source": "W6 p26"
+    },
+    {
+      "id": "q031",
+      "topic": "t3",
+      "week": 6,
+      "difficulty": 2,
+      "skill": "predict",
+      "stem": "In July 2026, the European Commission concluded that CORSIA had failed both of the Article 28b tests on ambition and coverage. Which statement best describes the EU's response?",
+      "options": [
+        "It withdrew from CORSIA, so EEA airlines no longer need to cancel emissions units on any of their routes.",
+        "It deferred any change until ICAO's next review, so intra-EEA coverage stays the only aviation measure.",
+        "It restored full scope at once, so all flights to and from the EEA come under the EU ETS from 2027.",
+        "It proposed a partial extension of the EU ETS to flights within 5,000 km from 2029, rather than full scope."
+      ],
+      "answer": 3,
+      "rationales": [
+        "The EU did the opposite of withdrawing: it proposed writing CORSIA into EU law until 2035.",
+        "The Commission did act, through a formal proposal. It did not wait for ICAO's next review.",
+        "Failing both tests could have justified restoring full scope, but the Commission chose a narrower route. It is also only a proposal, not yet law.",
+        "Correct. Coverage fell below 70% and ICAO had not strengthened ambition, so both tests failed. The response was narrow: a proposal to extend to the 5,000 km band from 2029 while writing CORSIA into EU law to 2035. Agreement is targeted for early 2027."
+      ],
+      "takeaway": "Article 28b tests failed in July 2026, but the EU's response was a narrow 5,000 km extension, not full scope.",
+      "source": "W6 p26 (sequence of events)"
+    },
+    {
+      "id": "q032",
+      "topic": "t4",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "Consumers sue Apple, arguing that the Kenyan forest conservation and Chinese afforestation projects behind its 'carbon neutral' watch would have happened without Apple's money. Which credit quality criterion is the US claim built on?",
+      "options": [
+        "Leakage, since the plaintiffs say protecting one forest simply pushed logging into another area.",
+        "Permanence, since the plaintiffs say the stored carbon could later be released by fire or by logging.",
+        "Accuracy, since the plaintiffs say Apple miscounted the emissions that each watch produces in use.",
+        "Additionality, since the plaintiffs say the cuts would have happened without Apple's involvement."
+      ],
+      "answer": 3,
+      "rationales": [
+        "Leakage is a real quality risk for forest projects, but it is not the argument made in this complaint.",
+        "Permanence was the basis on which Apple lost its German case. The US complaint described here rests on additionality.",
+        "The complaint does not dispute how Apple counted the watch's footprint. It disputes whether the credits delivered genuine reductions.",
+        "Correct. The complaint says the reductions would have occurred regardless of Apple's involvement or the projects' existence. That is a lack of additionality."
+      ],
+      "takeaway": "Apple's US case turned on additionality; outcomes on the same claim can differ by jurisdiction.",
+      "source": "W9 p5"
+    },
+    {
+      "id": "q033",
+      "topic": "t4",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "compare",
+      "stem": "The class action against Delta Air Lines alleged 'inaccurate accounting', credits for projects 'that would have occurred with or without market investment', and projects 'subject to disease, natural disasters, and human intervention'. Which three issues does this map to?",
+      "options": [
+        "Accuracy, leakage and double counting of the credits that support the carbon neutral claim.",
+        "Accuracy, additionality and permanence of the credits that support the carbon neutral claim.",
+        "Double counting, permanence and co-benefits of the credits that support the carbon neutral claim.",
+        "Additionality, permanence and leakage of the credits that support the carbon neutral claim."
+      ],
+      "answer": 1,
+      "rationales": [
+        "Leakage and double counting are not among the allegations. The disaster point is about permanence.",
+        "Correct. Inaccurate accounting is accuracy; projects that would have happened anyway is additionality; exposure to disease and disasters is permanence.",
+        "Double counting and co-benefits were not raised. The complaint's first limb is accuracy.",
+        "Two of the three are right, but inaccurate accounting points to accuracy, not leakage."
+      ],
+      "takeaway": "Delta's case combined accuracy, additionality and permanence.",
+      "source": "W9 p6"
+    },
+    {
+      "id": "q034",
+      "topic": "t4",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "An event organiser claims its tournament will be 'carbon neutral', based on a projected footprint and a pledge to plant trees. In light of the FIFA ruling, on which ground is the claim most exposed?",
+      "options": [
+        "Permanence, since newly planted trees can be lost to fire or drought long after the tournament has ended.",
+        "Accuracy, since a projected footprint and an unverified pledge to plant trees lack reliable evidence.",
+        "Additionality, since tree planting would probably happen anyway as part of routine municipal greening.",
+        "Vintage, since credits from future tree planting cannot be issued until well after the event has finished."
+      ],
+      "answer": 1,
+      "rationales": [
+        "Permanence is a valid concern for tree planting, but the FIFA precedent turned on accuracy.",
+        "Correct. The Swiss regulator found FIFA's projected emissions could not be shown to be accurate and its offsetting pledges could not be verified. The claim breached the rule that environmental claims must rest on reliable scientific evidence.",
+        "Additionality might be questioned, but it is not what sank the FIFA claim. The decisive problem was that the figures behind the claim could not be shown to be reliable.",
+        "Timing of issuance is a practical issue, but the regulator's objection was that the claim was not backed by reliable evidence."
+      ],
+      "takeaway": "FIFA's case shows a claim fails if the footprint and offsets behind it cannot be reliably substantiated.",
+      "source": "W9 p7"
+    },
+    {
+      "id": "q035",
+      "topic": "t4",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "compare",
+      "stem": "A company emits 100 t, buys 100 credits, still reports 100 t of emissions, and states separately that it financed 100 t of reductions in Indonesia. What kind of claim is this?",
+      "options": [
+        "A contribution claim, since the credits fund reductions elsewhere without being netted off its own emissions.",
+        "A counterbalancing claim, since the credits address unabated emissions while it is on a science-based path.",
+        "An offsetting claim, since the credits are matched one-for-one with the tonnes the company itself emitted.",
+        "A neutralisation claim, since the credits counterbalance the company's emissions once its reductions are done."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. A contribution claim supports another jurisdiction's reductions without counting the credits against the company's own unabated emissions. The company's reported figure stays at 100 t.",
+        "Counterbalancing uses credits to mitigate unabated emissions as part of the company's net position. A contribution claim does not count them against its emissions.",
+        "An offsetting claim would net the credits off: 100 − 100 = 0 and 'carbon neutral'. This company deliberately does not do that.",
+        "Neutralisation means using removal credits against residual emissions at net zero. Nothing here involves residuals or removals."
+      ],
+      "takeaway": "Contribution claims fund action elsewhere without reducing the buyer's reported emissions.",
+      "source": "W9 p9 (must know terms)"
+    },
+    {
+      "id": "q036",
+      "topic": "t4",
+      "week": 9,
+      "difficulty": 3,
+      "skill": "apply",
+      "stem": "A cement company reaches its net-zero year with 8% residual emissions after all feasible abatement. Which action would count as 'neutralisation' in SBTi's sense?",
+      "options": [
+        "Funding verified reductions in another country equal to the 8% residual, without netting them off.",
+        "Retiring avoided-deforestation credits equal to the 8% residual, after finishing its abatement pathway.",
+        "Retiring removal credits each year before net zero to cover all its unabated emissions along the way.",
+        "Retiring durable removal credits equal to the 8% residual, after finishing its abatement pathway."
+      ],
+      "answer": 3,
+      "rationales": [
+        "This describes a contribution claim. It does not neutralise anything in the company's net position.",
+        "The timing is right but the type is wrong. Neutralisation needs removals, not avoidance credits.",
+        "Covering unabated emissions on the way to net zero is counterbalancing or beyond-value-chain mitigation, not neutralisation of residuals.",
+        "Correct. SBTi defines neutralisation as permanently removing and storing carbon to counterbalance scientifically defined residual emissions. The timing (the net-zero point) and the type (removals) both match."
+      ],
+      "takeaway": "Neutralisation = removal credits, against residual emissions, at the net-zero point.",
+      "source": "W9 p9-10"
+    },
+    {
+      "id": "q037",
+      "topic": "t4",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "compare",
+      "stem": "What most clearly distinguishes 'counterbalancing' from traditional 'offsetting'?",
+      "options": [
+        "It presumes a science-based pathway, with credits complementing the company's own cuts, not replacing them.",
+        "It requires removal credits only, whereas offsetting lets a company use either avoidance or removal credits.",
+        "It nets credits off reported emissions one-for-one, whereas offsetting reports them in a separate line.",
+        "It applies only to residual emissions in the net-zero year, whereas offsetting can apply in any year at all."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Counterbalancing uses credits on unabated emissions while the company is on a science-based pathway. It moves away from a 1:1 exchange toward credits playing a complementary role.",
+        "Removal-only applies to neutralisation, which is a subset of counterbalancing. Counterbalancing itself is not limited to removals.",
+        "This reverses the terms. A one-for-one netting is traditional offsetting.",
+        "That describes neutralisation. Counterbalancing can happen throughout the pathway."
+      ],
+      "takeaway": "Counterbalancing presumes science-based reductions and treats credits as a complement, not a 1:1 swap.",
+      "source": "W9 p9-10"
+    },
+    {
+      "id": "q038",
+      "topic": "t4",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "A consumer brand plans to print 'carbon neutral' on its packaging, backed by high-quality credits. Under VCMI's guidance on claims, what is the main concern?",
+      "options": [
+        "Consumers may read 'carbon neutral' as emissions cut at source, which invites greenwashing claims.",
+        "The label must first be validated by SBTi, which approves all consumer-facing carbon neutral claims.",
+        "VCMI bans product-level claims outright, permitting only corporate-level claims about a whole company.",
+        "Product claims need removal credits, since VCMI says avoidance credits cannot support any product label."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. VCMI warns that an average consumer may read 'carbon neutral' as emissions eliminated at source. This raises the risk of greenwashing accusations and litigation, so VCMI suggests avoiding compensation claims entirely.",
+        "SBTi validates net-zero targets. It does not approve consumer labels.",
+        "VCMI does not ban product claims. It recommends against compensation-style claims because of how they are read.",
+        "VCMI's concern is about how consumers read the claim, not a removal-only rule for labels."
+      ],
+      "takeaway": "VCMI advises against 'carbon neutral' style compensation claims because consumers misread them.",
+      "source": "W9 p11"
+    },
+    {
+      "id": "q039",
+      "topic": "t4",
+      "week": 9,
+      "difficulty": 1,
+      "skill": "apply",
+      "stem": "Standards on corporate claims, such as VCMI's, restrict what companies can say. Why have many companies still welcomed them?",
+      "options": [
+        "They remove the need to check credit quality, since any credit used under a standard is presumed sound.",
+        "They define what is 'good enough', giving companies air-cover and a clear standard they can follow.",
+        "They exempt companies from consumer protection law, provided their claims use the standard's wording.",
+        "They let voluntary credits count toward ETS compliance, linking voluntary claims to regulated markets."
+      ],
+      "answer": 1,
+      "rationales": [
+        "Standards such as VCMI's require high-quality credits. They add quality checks rather than removing them.",
+        "Correct. Claims standards emerged in response to greenwashing criticism. By defining what is good enough, they give companies both air-cover and a clear standard to follow.",
+        "Following a standard reduces risk but does not override consumer protection law. Regulators can still act.",
+        "Voluntary claims standards have nothing to do with ETS compliance, which is a separate regulated system."
+      ],
+      "takeaway": "Claims standards give companies air-cover and a benchmark for what counts as a credible claim.",
+      "source": "W9 p4"
+    },
+    {
+      "id": "q040",
+      "topic": "t4",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "compare",
+      "stem": "Why are claims central to the voluntary carbon market in a way they are not in an emissions trading scheme?",
+      "options": [
+        "In an ETS, units discharge a legal obligation; voluntary buyers retire credits mainly to back a claim.",
+        "In an ETS, only removals may be surrendered; voluntary buyers may also claim against avoidance credits.",
+        "In an ETS, firms cannot publicise compliance; voluntary buyers are legally required to disclose claims.",
+        "In an ETS, regulators verify claims; voluntary claims are verified by the crediting programmes instead."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. A defining feature of the VCM is that companies use credits for their own reasons, such as product or corporate claims. A compliance buyer surrenders units because the law requires it, not to make a claim.",
+        "ETSs typically surrender allowances, which are neither removals nor avoidance credits. The contrast in the question is about purpose.",
+        "ETS compliance is often public, and voluntary disclosure is not universally mandated.",
+        "Crediting programmes verify projects and issue credits. They do not verify a buyer's marketing claims."
+      ],
+      "takeaway": "Voluntary buyers are, in effect, making a claim, which is why claims attract scrutiny.",
+      "source": "W9 p4; p35 recap 1"
+    },
+    {
+      "id": "q041",
+      "topic": "t4",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "A miner admits it will miss its 2025 decarbonisation target and says it will buy credits to cover the shortfall. Which way of using credits is this, and how does SBTi view it?",
+      "options": [
+        "Covering a shortfall against its reduction target, which SBTi does not accept as progress toward that target.",
+        "Neutralising residual emissions in its net-zero year, which SBTi accepts provided removal credits are used.",
+        "Compensating for emissions each year, which SBTi treats as equivalent to cutting emissions directly.",
+        "Making a contribution claim, which SBTi requires once a company misses one of its near-term targets."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Using credits to cover an emissions shortfall against a target is the third use shown in the course, and it goes against SBTi's position that credits do not count toward science-based targets.",
+        "This is not the net-zero year and the emissions are not residual. The company is trying to close a near-term gap.",
+        "SBTi does not treat credits as equivalent to reductions. This is not annual compensation either; it is plugging a target gap.",
+        "SBTi has no rule requiring a contribution claim after a missed target."
+      ],
+      "takeaway": "Using credits to plug a missed reduction target conflicts with SBTi's position.",
+      "source": "W9 p22-23"
+    },
+    {
+      "id": "q042",
+      "topic": "t4",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "predict",
+      "stem": "Heuberger argues that criticism of carbon markets is fundamentally ideological rather than technical. If that is right, what follows?",
+      "options": [
+        "Raising credit integrity standards further would not, on its own, win over the market's strongest critics.",
+        "The debate could be settled by better measurement, since the critics' objections are about technical flaws.",
+        "Critics would come round to carbon markets once CCP labels cover most of the credits being traded.",
+        "Critics would accept credits once companies switch entirely from avoidance credits to removal credits."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. If the objection is ideological, technical fixes such as higher integrity will not satisfy the critics. The recap notes that some critics may not be satisfied by higher integrity alone.",
+        "This assumes the criticism is technical, which is the opposite of Heuberger's argument.",
+        "Wider CCP labelling is an integrity improvement. Under Heuberger's view, it would not settle an ideological objection.",
+        "Switching credit type is still a technical fix. Under Heuberger's view, it would not satisfy an ideological objection."
+      ],
+      "takeaway": "If criticism is ideological, better integrity alone will not satisfy critics.",
+      "source": "W9 p24; p35 recap 3"
+    },
+    {
+      "id": "q043",
+      "topic": "t5",
+      "week": 9,
+      "difficulty": 3,
+      "skill": "apply",
+      "stem": "A company publicly discloses its annual GHG inventory, has a science-aligned near-term target and shows progress toward it. However, it funds an industry body that lobbies against its country's carbon tax. Under VCMI's Claims Code:",
+      "options": [
+        "It passes the Foundational Criteria, since lobbying through an industry body falls outside its own conduct.",
+        "It passes the Foundational Criteria but must retire extra credits to make up for the impact of its lobbying.",
+        "It fails only Step 4, since third-party assurance must confirm that its lobbying is consistent with its targets.",
+        "It fails the Foundational Criteria, since its policy advocacy must support Paris and not obstruct regulation."
+      ],
+      "answer": 3,
+      "rationales": [
+        "Advocacy through trade associations is exactly the kind of indirect lobbying the criterion is meant to catch. A company cannot be two-faced.",
+        "Credits cannot buy back a failed Foundational Criterion. The criteria must be met before any claim is made.",
+        "The failure is in Step 1, the Foundational Criteria. Step 4 assurance cannot fix an earlier failure.",
+        "Correct. The fourth Foundational Criterion requires the company to show that its public policy advocacy supports the Paris goals and does not stand in the way of ambitious climate regulation. Funding opposition to a carbon tax breaches it."
+      ],
+      "takeaway": "VCMI's fourth Foundational Criterion requires policy advocacy that supports, not obstructs, climate regulation.",
+      "source": "W9 p12 (must know 4 criteria)"
+    },
+    {
+      "id": "q044",
+      "topic": "t5",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "A company discloses its inventory and sets a near-term target consistent with reaching net zero by 2060. Does it meet VCMI's Foundational Criteria on targets?",
+      "options": [
+        "No, because VCMI requires every company to reach net zero by 2040 before it can make any claim at all.",
+        "No, because near-term targets must be science-aligned and consistent with net zero no later than 2050.",
+        "Yes, because VCMI only requires a disclosed target and leaves the choice of net-zero date to the company.",
+        "Yes, provided it retires enough credits to cover the decade between its target date and the year 2050."
+      ],
+      "answer": 1,
+      "rationales": [
+        "2040 is the date by which the Scope 3 Action Code expects gaps to close and the Code to end. It is not the net-zero deadline in the Foundational Criteria.",
+        "Correct. The second Foundational Criterion requires science-aligned near-term targets consistent with net zero no later than 2050. A 2060 pathway fails it.",
+        "The date is not left open. Consistency with net zero by 2050 at the latest is part of the criterion.",
+        "Credits cannot substitute for meeting a Foundational Criterion. The target itself must be aligned."
+      ],
+      "takeaway": "VCMI requires near-term targets consistent with net zero by 2050 at the latest.",
+      "source": "W9 p12"
+    },
+    {
+      "id": "q045",
+      "topic": "t5",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "Under VCMI's approach, which credits count as 'high-quality' for making a claim?",
+      "options": [
+        "Credits rated highly by an independent ratings agency, since VCMI defers to ratings to judge quality.",
+        "Removal credits only, since VCMI treats every avoidance credit as too uncertain to support a claim.",
+        "Credits that carry ICVCM's CCP label, or credits issued under the Article 6.4 mechanism (PACM).",
+        "Credits from any programme approved by ICAO's TAB, since CORSIA eligibility proves high integrity."
+      ],
+      "answer": 2,
+      "rationales": [
+        "Ratings agencies are not named as VCMI's test of quality. VCMI points to ICVCM labels and PACM credits.",
+        "VCMI does not restrict claims to removals. CCP-labelled avoidance credits can qualify.",
+        "Correct. VCMI's simple approach treats ICVCM-labelled credits and Article 6.4 (PACM) credits as high quality. It relies on ICVCM's judgement.",
+        "CORSIA eligibility is a separate ICAO process. VCMI points to ICVCM labels and PACM, not to the TAB."
+      ],
+      "takeaway": "VCMI's high-quality test is ICVCM CCP-labelled or Article 6.4 (PACM) credits.",
+      "source": "W9 p13, p21"
+    },
+    {
+      "id": "q046",
+      "topic": "t5",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "A company meets VCMI's Foundational Criteria, retires CCP-labelled credits and discloses them, but its claim is checked only by its own sustainability team. What is missing under the Claims Code?",
+      "options": [
+        "SBTi validation of the credits, which the Claims Code requires before any credit can be retired.",
+        "Independent third-party assurance of the claim, which the Claims Code requires as its final step.",
+        "A corresponding adjustment on every credit, which the Claims Code requires for all corporate claims.",
+        "Registration of the claim with ICVCM, which the Claims Code requires before any claim is published."
+      ],
+      "answer": 1,
+      "rationales": [
+        "SBTi validates targets, not credits. The Claims Code does not route credits through SBTi.",
+        "Correct. Step 4 of the Claims Code requires third-party assurance of the claim, covering monitoring, reporting and assurance.",
+        "Corresponding adjustments are not a general requirement for VCMI claims. The missing step is independent assurance.",
+        "ICVCM labels credits and methodologies. It does not register companies' claims."
+      ],
+      "takeaway": "VCMI claims need independent third-party assurance (Step 4).",
+      "source": "W9 p13"
+    },
+    {
+      "id": "q047",
+      "topic": "t5",
+      "week": 9,
+      "difficulty": 1,
+      "skill": "diagnose",
+      "stem": "Why does SBTi's position on carbon credits carry outsized weight with companies?",
+      "options": [
+        "It sets the net-zero standard and, through a separate arm, validates companies' targets against it.",
+        "It issues carbon credits of its own, so its rules decide which credits large companies are able to buy.",
+        "It is a UN body, so its standard is legally binding on companies in every country that ratified Paris.",
+        "It accredits crediting programmes, so credits lose their label if they conflict with SBTi's standard."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. SBTi has two functions: it sets the Corporate Net-Zero Standard and, through a separate arm, assesses and validates companies' targets. More than 4,000 companies seek validation, which makes it a leading voice on what is good enough.",
+        "SBTi does not issue credits. That is the role of crediting programmes and registries.",
+        "SBTi is an international organisation, not a UN body, and its standard is voluntary.",
+        "Accrediting crediting programmes is closer to ICVCM's role. SBTi sets the standard for targets, not labels for credits."
+      ],
+      "takeaway": "SBTi both sets the net-zero standard and validates targets against it.",
+      "source": "W9 p14"
+    },
+    {
+      "id": "q048",
+      "topic": "t5",
+      "week": 9,
+      "difficulty": 3,
+      "skill": "apply",
+      "stem": "A company with an SBTi-validated target retires 50,000 avoidance credits and wants to count them toward its near-term target. Can it?",
+      "options": [
+        "Yes, provided the credits carry a CCP label and are retired in the same year as the emissions they cover.",
+        "No, since only removal credits count toward near-term targets, and avoidance credits never qualify.",
+        "No, since credits do not count as reductions toward either near-term or long-term science-based targets.",
+        "Yes, but only against Scope 3, following the 2024 board statement that allowed credits for value chains."
+      ],
+      "answer": 2,
+      "rationales": [
+        "Credit quality does not change the rule. Even high-quality credits are not counted as reductions.",
+        "Removal credits do not count toward near-term targets either. Their role is neutralising residual emissions.",
+        "Correct. SBTi's position, which remains under v2.0, is that credits do not count as reductions toward science-based targets. They can only neutralise residual emissions or fund action beyond the value chain.",
+        "The April 2024 board statement was retracted after a staff–board clash, and v2.0 did not adopt it."
+      ],
+      "takeaway": "Under SBTi, credits never count as reductions toward science-based targets.",
+      "source": "W9 p15, p18"
+    },
+    {
+      "id": "q049",
+      "topic": "t5",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "predict",
+      "stem": "In 2037, a company remains on its SBTi glide path but takes no action on its ongoing emissions. Under SBTi's Corporate Net-Zero Standard v2.0:",
+      "options": [
+        "It can no longer claim a net-zero pathway, since action on ongoing emissions is mandatory after 2035.",
+        "It keeps its validation, since OER is an optional recognition programme that only rewards extra effort.",
+        "It must neutralise all its emissions with removals, since v2.0 brings neutralisation forward to 2035.",
+        "It keeps its validation, since staying on the glide path meets every requirement until its net-zero year."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Ongoing Emissions Responsibility is optional before 2035 and mandatory after it. A company that does nothing on ongoing emissions cannot keep claiming a net-zero pathway, even if it is on its glide path.",
+        "OER is optional only before 2035. After 2035 it becomes mandatory.",
+        "OER addresses ongoing emissions through budgets or verified mitigation. It does not require full neutralisation with removals.",
+        "Before 2035 the glide path alone is enough; after 2035 it no longer is."
+      ],
+      "takeaway": "SBTi v2.0: OER is optional before 2035 and mandatory after.",
+      "source": "W9 p15-16; p35 recap 2"
+    },
+    {
+      "id": "q050",
+      "topic": "t5",
+      "week": 9,
+      "difficulty": 3,
+      "skill": "apply",
+      "stem": "A company in SBTi's OER programme retires verified credits covering 10% of its ongoing emissions. How does this affect its reported Scope 1–3 inventory?",
+      "options": [
+        "Its reported inventory falls by 10%, provided the credits are verified mitigation outcomes and not a budget.",
+        "Its reported inventory is unchanged, since OER sits outside its Scope 1–3 targets and never nets against them.",
+        "Its reported Scope 1 and 2 fall first, since OER coverage must include all of those scopes before Scope 3.",
+        "Its reported Scope 3 falls by the amount covered, since OER credits are applied against value chain emissions."
+      ],
+      "answer": 1,
+      "rationales": [
+        "The delivery route makes no difference. Neither the budget route nor verified mitigation lowers reported emissions.",
+        "Correct. The OER programme sits outside the Scope 1, 2 and 3 targets and never nets against the GHG inventory. It signals extra effort without lowering reported emissions.",
+        "Some tiers require 100% coverage of Scope 1 and 2, but that is about coverage, not netting. The inventory is unchanged.",
+        "OER credits are never netted against any scope. They do not reduce Scope 3."
+      ],
+      "takeaway": "OER signals extra effort but never nets against the reported GHG inventory.",
+      "source": "W9 p16 (must know)"
+    },
+    {
+      "id": "q051",
+      "topic": "t5",
+      "week": 9,
+      "difficulty": 3,
+      "skill": "apply",
+      "stem": "A company has 500,000 t of ongoing emissions, 30,000 t of which are Scope 1 and 2. It seeks SBTi's Advanced OER recognition through the contribution budget route. What budget must it commit?",
+      "options": [
+        "US$100,000, covering 1% of ongoing emissions at US$20 per tonne under the contribution budget route.",
+        "US$10 million, covering all ongoing emissions at US$20 per tonne under the contribution budget route.",
+        "US$1 million, covering 10% of ongoing emissions at US$20 per tonne under the contribution budget route.",
+        "US$4 million, covering 10% of ongoing emissions at US$80 per tonne under the contribution budget route."
+      ],
+      "answer": 2,
+      "rationales": [
+        "1% coverage with no set price is the Engaged tier. Advanced requires 10%.",
+        "Advanced does not cover all ongoing emissions; 100% coverage applies only to Leadership Category A.",
+        "Correct. Advanced covers 10% of ongoing emissions, including 100% of Scope 1 and 2, which fits here because 30,000 t is below 50,000 t. The budget is 50,000 t × US$20 = US$1 million.",
+        "US$80 per tonne is the Leadership price. Advanced uses US$20."
+      ],
+      "takeaway": "OER tiers: Engaged 1%, Advanced 10% at US$20/t, Leadership up to 100% at US$80/t.",
+      "source": "W9 p16 (table, must know)"
+    },
+    {
+      "id": "q052",
+      "topic": "t5",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "A company wants SBTi's Leadership OER recognition and has already committed a contribution budget at US$80 per tonne of covered emissions. What else does it need?",
+      "options": [
+        "It must also secure VCMI assurance, since SBTi recognises Leadership only through the Claims Code.",
+        "It must also raise coverage to 100% of all emissions, since every Leadership company is Category A.",
+        "Nothing more, since a contribution budget at the Leadership price meets the tier's requirements alone.",
+        "It must also retire credits equal to its covered volume, since Leadership requires both delivery routes."
+      ],
+      "answer": 3,
+      "rationales": [
+        "OER recognition is SBTi's own programme. It does not depend on VCMI assurance.",
+        "Leadership has a Category B with 10% coverage, including 100% of Scope 1 and 2. Not every Leadership company must cover 100%.",
+        "The budget alone is enough at Engaged and Advanced, not at Leadership.",
+        "Correct. Engaged and Advanced accept either route, but Leadership demands both the contribution budget and verified mitigation. That makes it the strictest test."
+      ],
+      "takeaway": "Engaged and Advanced: budget OR credits. Leadership: budget AND credits.",
+      "source": "W9 p16"
+    },
+    {
+      "id": "q053",
+      "topic": "t5",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "predict",
+      "stem": "In April 2024, SBTi's board said companies could use carbon credits against Scope 3 emissions, which triggered a clash with SBTi staff. What had become of the idea by v2.0 in June 2026?",
+      "options": [
+        "It was adopted for removals only; v2.0 lets removal credits count toward a company's Scope 3 target.",
+        "It was adopted; v2.0 lets credits cover up to a quarter of the gap against a company's Scope 3 target.",
+        "It was handed to VCMI, which now validates companies' Scope 3 targets on SBTi's behalf across the board.",
+        "It was not adopted; v2.0 handles ongoing emissions through OER, which sits outside the Scope 3 target."
+      ],
+      "answer": 3,
+      "rationales": [
+        "v2.0 does not let any credits count toward Scope 3 targets.",
+        "The 25% threshold belongs to VCMI's Scope 3 Action Code, not to SBTi's standard.",
+        "VCMI issued its own Scope 3 Action Code but does not validate targets for SBTi. Validation stays with SBTi.",
+        "Correct. The board statement was retracted and sent for further consultation. In v2.0 it was not adopted; OER replaces the idea and never nets against targets."
+      ],
+      "takeaway": "SBTi did not adopt credits for Scope 3; OER replaced the idea.",
+      "source": "W9 p18"
+    },
+    {
+      "id": "q054",
+      "topic": "t5",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "Which company is the intended user of VCMI's Scope 3 Action Code of Practice?",
+      "options": [
+        "One with no near-term targets yet, which wants to use credits while it builds its first GHG inventory.",
+        "One on track on Scope 1 and 2 but behind on Scope 3, and willing to disclose the barriers it faces.",
+        "One behind on all scopes, which needs credits to bridge its gaps while it rebuilds its transition plan.",
+        "One on track across all scopes, which wants recognition for retiring credits beyond its own targets."
+      ],
+      "answer": 1,
+      "rationales": [
+        "The Foundational Criteria still apply, so an inventory and near-term targets are prerequisites.",
+        "Correct. The Code targets companies making progress on Scope 1 and 2 but struggling with Scope 3. They must be willing to disclose publicly the barriers they face.",
+        "The Code is not for companies struggling on all scopes. Progress on Scope 1 and 2 is a gate.",
+        "A company on track across all scopes may be able to make a Carbon Integrity Claim instead. The Scope 3 Code is for those falling short on Scope 3."
+      ],
+      "takeaway": "VCMI's Scope 3 Code is for firms progressing on Scope 1 and 2 but struggling with Scope 3.",
+      "source": "W9 p19 (prof note)"
+    },
+    {
+      "id": "q055",
+      "topic": "t5",
+      "week": 9,
+      "difficulty": 3,
+      "skill": "apply",
+      "stem": "Under VCMI's year-on-year approach, a company's base-year Scope 3 emissions were 1,000 kt. Its target for this year is 800 kt, and actual emissions came in at 1,010 kt. What follows?",
+      "options": [
+        "It can claim alignment by retiring 210 kt of credits, since the gap is within 25% of the 1,000 kt base year.",
+        "It can claim Scope 3 carbon neutrality by retiring 1,010 kt of credits to cover all actual emissions.",
+        "It cannot claim alignment, since its 210 kt gap exceeds 25% of this year's 800 kt target, which is 200 kt.",
+        "It can claim alignment by retiring 210 kt of credits, since the gap is within 25% of actual emissions."
+      ],
+      "answer": 2,
+      "rationales": [
+        "The threshold is measured against the year's target, not the base year. Using the base year would wrongly allow 250 kt.",
+        "The Code supports an 'aligned' claim, not carbon neutrality, and the company fails the threshold anyway.",
+        "Correct. The threshold is 25% of the target for that year: 0.25 × 800 = 200 kt. A gap of 210 kt exceeds it, so the company is not aligned and cannot buy its way to alignment.",
+        "The threshold is measured against the target, not actual emissions."
+      ],
+      "takeaway": "YoY approach: gap must be ≤ 25% of that year's target; then retire credits ≥ the gap to claim alignment.",
+      "source": "W9 p20"
+    },
+    {
+      "id": "q056",
+      "topic": "t5",
+      "week": 9,
+      "difficulty": 3,
+      "skill": "apply",
+      "stem": "Under VCMI's carbon budget approach, a company's Scope 3 budget for its target period is 10,000 t. This year its gap is 1,300 t, which brings its cumulative gap to 1,800 t. Is it aligned?",
+      "options": [
+        "Yes, since its cumulative gap of 1,800 t is still within 25% of its 10,000 t total budget.",
+        "No, since one year's gap cannot exceed 40% of the 2,500 t gap allowance, which is 1,000 t.",
+        "No, since one year's gap cannot exceed 25% of that year's target under either of the approaches.",
+        "Yes, since the budget approach drops all annual limits so that gaps can vary from year to year."
+      ],
+      "answer": 1,
+      "rationales": [
+        "The cumulative test is met, but the annual 40% cap is a separate requirement that this year fails.",
+        "Correct. The gap allowance is 25% × 10,000 = 2,500 t, and any single year is capped at 40% of that, which is 1,000 t. A 1,300 t gap breaches the annual cap even though the cumulative total is within the allowance.",
+        "The 25%-of-target rule belongs to the year-on-year approach. The budget approach uses a different annual cap.",
+        "The budget approach drops the 25%-of-target annual rule but replaces it with the 40%-of-allowance cap."
+      ],
+      "takeaway": "Budget approach: cumulative gap ≤ 25% of budget, and any one year ≤ 40% of that allowance.",
+      "source": "W9 p21"
+    },
+    {
+      "id": "q057",
+      "topic": "t6",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "Commentators note that the VCM guidance issued by the US, UK and Singapore largely repeats what existing standards already say. What, then, is its main value?",
+      "options": [
+        "Signalling government support for credible credit use, plus clarifications on points such as vintage.",
+        "Creating binding legal duties for companies that make carbon claims, enforced by national regulators.",
+        "Setting national price floors for credits, so that companies cannot rely on cheap low-quality units.",
+        "Replacing VCMI and SBTi rules with national standards that companies in each country must follow."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Government guidance often repeats existing standards; its main use is expressing support for the VCM. Singapore's guidance also clarifies corresponding adjustments and vintage.",
+        "The documents are guidance and principles, not binding duties.",
+        "None of the guidance sets price floors for voluntary credits.",
+        "They draw on existing standards rather than replacing them."
+      ],
+      "takeaway": "Government VCM guidance mainly signals support, with some practical clarifications.",
+      "source": "W9 p25-26; p35 recap 4"
+    },
+    {
+      "id": "q058",
+      "topic": "t6",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "A UK company plans to buy credits instead of cutting emissions in its supply chain, and to label its products 'carbon zero'. Which of the UK's November 2024 principles does it most clearly breach?",
+      "options": [
+        "Using credits in addition to value-chain action, and making accurate claims in appropriate terms.",
+        "Co-operating with others to grow the market, and buying credits only through regulated UK exchanges.",
+        "Using removal credits only, and registering every claim with the UK carbon market regulator first.",
+        "Using credits only from UK projects, and disclosing every credit purchase in its financial statements."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Principle 1 says credits should be used in addition to ambitious action within value chains, and Principle 5 requires accurate green claims using appropriate terminology. The plan breaches both.",
+        "Co-operation is a principle, but the plan does not obviously breach it, and there is no exchange-only rule.",
+        "Neither removal-only use nor prior registration of claims is among the UK principles.",
+        "The principles do not require UK-only credits. Disclosure relates to planned credit use in sustainability reporting, not financial statements."
+      ],
+      "takeaway": "UK principles: credits in addition to value-chain action, high integrity, disclosure, and accurate claims.",
+      "source": "W9 p25"
+    },
+    {
+      "id": "q059",
+      "topic": "t6",
+      "week": 9,
+      "difficulty": 1,
+      "skill": "apply",
+      "stem": "A Singapore carbon-tax payer plans to use international credits that will also be reported under Article 6. What ensures that the host country does not also claim the same reduction?",
+      "options": [
+        "A CCP label, which ICVCM attaches to confirm that no other country has already used the credit.",
+        "A vintage stamp, which records the year of the reduction so that it cannot be reused in a later period.",
+        "A corresponding adjustment, the host country's book entry that stops the reduction counting twice.",
+        "A registry serial number, which lets Singapore check that no other buyer holds the same credit."
+      ],
+      "answer": 2,
+      "rationales": [
+        "The CCP label signals methodological integrity. It does not adjust national accounts.",
+        "Vintage marks when a reduction occurred. It does not prevent the host country from counting it.",
+        "Correct. A corresponding adjustment is a book entry by the host country, so that when a buyer country claims an Article 6 credit, the host does not count it as well.",
+        "Serial numbers prevent two buyers holding the same credit. They do not stop a host country also counting the reduction toward its NDC."
+      ],
+      "takeaway": "Corresponding adjustments prevent double claiming between host and buyer countries.",
+      "source": "W9 p26-27"
+    },
+    {
+      "id": "q060",
+      "topic": "t6",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "compare",
+      "stem": "Which statement best captures the difference between treating a carbon credit as property and treating it as a bundle of contractual rights?",
+      "options": [
+        "A property right requires a corresponding adjustment, while a contractual right does not need one at all.",
+        "A property right is enforceable against the world, while a contractual right binds only the parties to it.",
+        "A property right is governed by the registry's terms, while a contractual right is governed by national law.",
+        "A property right ends once the credit is retired, while a contractual right survives retirement indefinitely."
+      ],
+      "answer": 1,
+      "rationales": [
+        "Corresponding adjustments are a matter of national accounting, unrelated to the legal nature of the credit.",
+        "Correct. Property is a right in the asset itself, enforceable against everyone, like title to land. A contractual right attaches to a party and does not automatically pass to a new holder, like renting a storage locker.",
+        "Property status is a question of law, and registry terms bind account holders contractually. This reverses the logic.",
+        "Retirement does not define the difference between the two. Both kinds of right are affected when a credit is used."
+      ],
+      "takeaway": "Property is enforceable against the world; contractual rights bind only the parties.",
+      "source": "W9 p28"
+    },
+    {
+      "id": "q061",
+      "topic": "t6",
+      "week": 9,
+      "difficulty": 3,
+      "skill": "diagnose",
+      "stem": "A Singapore seller sells credits to a UK buyer under an English-law contract, sells the same credits again to a second buyer, and then becomes insolvent. Why might the English-law clause not settle who owns the credits?",
+      "options": [
+        "English law treats credits only as contractual rights, so neither buyer can claim to own the credits.",
+        "The registry's terms override any contract, so the first buyer to open an account wins automatically.",
+        "The parties' choice of law binds only the two of them, not a liquidator or a second buyer of the credits.",
+        "The project's host country decides all ownership disputes, regardless of which law the parties chose."
+      ],
+      "answer": 2,
+      "rationales": [
+        "The course does not say English law treats credits as contractual rights only. The problem is that the choice of law does not reach third parties.",
+        "Registries record holders but do not guarantee title, so opening an account first settles nothing.",
+        "Correct. Bilateral contracts that name a governing law manage disputes between the two parties. That choice does not bind outsiders such as a liquidator or a second buyer, and no settled rule says whose property law decides between them.",
+        "The host country's law matters for project issues such as revoked authorisation, not for who owns credits after a sale."
+      ],
+      "takeaway": "A contract's choice of law does not bind third parties in ownership disputes.",
+      "source": "W9 p28, p33"
+    },
+    {
+      "id": "q062",
+      "topic": "t6",
+      "week": 9,
+      "difficulty": 3,
+      "skill": "compare",
+      "stem": "A dispute arises over who owns credits transferred under a contract that the parties chose to govern by English law. The credits sit in a registry located in another State. Which law does each proposal point to?",
+      "options": [
+        "Both point to the law of the registry's State, since neither lets parties choose the law on property.",
+        "UNIDROIT points to the law of the registry's State, while GenZero et al. point to English law as chosen.",
+        "UNIDROIT points to English law as chosen, while GenZero et al. point to the law of the registry's State.",
+        "Both point to English law as chosen, since each lets the contract's choice of law govern property."
+      ],
+      "answer": 1,
+      "rationales": [
+        "Only UNIDROIT points to the registry's law. GenZero's proposal favours the parties' chosen law.",
+        "Correct. UNIDROIT's draft Principles propose that the law of the registry's State governs proprietary questions. GenZero et al. propose using the governing law the parties chose in their contract.",
+        "This reverses the two positions.",
+        "Only GenZero favours the parties' chosen law. UNIDROIT anchors proprietary questions to the registry's State."
+      ],
+      "takeaway": "UNIDROIT: the registry State's law. GenZero et al.: the law the parties chose.",
+      "source": "W9 p29, p34 (note the difference)"
+    },
+    {
+      "id": "q063",
+      "topic": "t6",
+      "week": 9,
+      "difficulty": 3,
+      "skill": "diagnose",
+      "stem": "Proponents use the Ainsworth test to argue that carbon credits are property. Which fact poses the strongest challenge to the 'permanence and stability' limb?",
+      "options": [
+        "Registries record each credit's holder, so the credit cannot exist independently of a registry account.",
+        "The underlying project may reverse, as when a forest burns, and the credit may then be invalidated.",
+        "Each credit has a unique serial number, so it cannot be told apart from other credits of the same vintage.",
+        "Credits can be transferred between holders, so no single party can hold a given credit at any one time."
+      ],
+      "answer": 1,
+      "rationales": [
+        "Dependence on the registry bears on how a credit is identified and on title, not on whether it persists over time.",
+        "Correct. A credit arguably stays in the account until it is used, but if the underlying carbon is lost it may be invalidated. That makes its permanence shaky.",
+        "Unique serial numbers support the 'definable and identifiable' limb. They do not undermine it.",
+        "Transferability, one holder at a time, supports the 'capable of assumption' limb."
+      ],
+      "takeaway": "Ainsworth: definable, capable of assumption, permanent and stable; reversal risk weakens the last.",
+      "source": "W9 p30 (should know)"
+    },
+    {
+      "id": "q064",
+      "topic": "t6",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "A bank lending to a forestry developer takes the project company's shares and its offtake receivables as security, rather than the credits themselves. Why?",
+      "options": [
+        "Without clear property status and registry support, credits are hard to take and enforce as security.",
+        "Regulators bar banks from holding carbon credits, so lenders cannot take them as security at all.",
+        "Credits lose their value once retired, so lenders avoid any collateral that its holder could cancel.",
+        "Credits cannot be transferred before issuance, so security could only attach once they are retired."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Most registries do not record security interests and act only on the account holder's instructions. Lenders therefore secure what they can, which keeps credits out of collateral pools.",
+        "No such regulatory bar is described. The problem is legal uncertainty, not prohibition.",
+        "Retirement risk is not the reason given. The obstacle is legal and practical: credits are not clearly property and registries do not support security.",
+        "Issued credits can be transferred. The difficulty is perfecting and enforcing security over them."
+      ],
+      "takeaway": "If credits are not clearly property, they are hard to use as collateral.",
+      "source": "W9 p31"
+    },
+    {
+      "id": "q065",
+      "topic": "t6",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "predict",
+      "stem": "A custodian holding credits for several clients becomes insolvent. Why does it matter whether credits are recognised as property?",
+      "options": [
+        "If credits are contractual rights, clients can reclaim them from the registry as account holders.",
+        "If credits are property, the registry must repay clients for any credits lost in the insolvency.",
+        "If credits are property, they can be held on trust and kept outside the custodian's insolvent estate.",
+        "If credits are contractual rights, the liquidator must retire them for the clients' benefit first."
+      ],
+      "answer": 2,
+      "rationales": [
+        "Clients usually do not hold the registry account themselves; the custodian does. That is why their position is uncertain today.",
+        "Registries do not guarantee title or compensate holders. Protection comes from trust structures, not registry payouts.",
+        "Correct. As property, credits can be held on trust and kept separate from the custodian's own assets, so clients are protected if it fails. As mere contractual rights, clients may be left with only a claim against the custodian.",
+        "No such rule exists. Without property status, clients may simply be unsecured creditors."
+      ],
+      "takeaway": "Property status lets custodians hold credits on trust, protecting clients in insolvency.",
+      "source": "W9 p31 (annotation)"
+    },
+    {
+      "id": "q066",
+      "topic": "t6",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "compare",
+      "stem": "Insurers today offer cover for non-delivery and political risk on carbon deals, but struggle to offer title insurance on the credits themselves. Why?",
+      "options": [
+        "Registries already guarantee title to credits, so separate title cover would duplicate what buyers have.",
+        "Title insurance is banned for intangible assets, so insurers can only ever cover a project's physical assets.",
+        "Insurers can only pay claims in replacement credits, which makes any title cover impossible to settle.",
+        "Today's cover sits behind a contract with a chosen law; insuring title needs credits to be treated as property."
+      ],
+      "answer": 3,
+      "rationales": [
+        "Registries do not guarantee title. That gap is part of the problem.",
+        "Nothing bans title insurance for intangible assets. The obstacle is the credit's unclear legal nature.",
+        "Many policies pay in cash. Settlement in replacement credits is an option, not a limit on insuring title.",
+        "Correct. Insurance works today because the policy sits behind a contract with a chosen governing law: you insure the deal, not the credit. If credits were property, cover for title, loss or impairment would become possible."
+      ],
+      "takeaway": "Today you insure the deal; if credits become property, you can insure the credit itself.",
+      "source": "W9 p32 (annotation)"
+    },
+    {
+      "id": "q067",
+      "topic": "t6",
+      "week": 9,
+      "difficulty": 2,
+      "skill": "compare",
+      "stem": "Which initiative's 2024 final report concluded that legal uncertainty is holding back the VCM, yet chose not to prescribe a definition of carbon credits?",
+      "options": [
+        "HCCH, which convened an experts' group on cross-border issues, starting with the applicable-law rule.",
+        "IOSCO, which asked each jurisdiction to clarify the legal nature and regulatory status of credits.",
+        "ISDA, which reviewed France, Japan and Singapore and found credits are, or should be, intangible property.",
+        "UNIDROIT, which drafted principles recognising credits as intangible assets open to proprietary rights."
+      ],
+      "answer": 1,
+      "rationales": [
+        "The Hague Conference's experts' group (2025) works on cross-border, private international law issues, not a general report on legal uncertainty.",
+        "Correct. IOSCO's 2024 Final Report found that legal uncertainty is holding back the VCM. It prescribed no definition but said each jurisdiction should clarify the legal nature and regulatory classification of credits.",
+        "ISDA's 2022 paper took a view on property status in three jurisdictions. It is not the 2024 report described here.",
+        "UNIDROIT did take a position: its draft Principles treat credits as intangible assets that can be subject to proprietary rights."
+      ],
+      "takeaway": "UNIDROIT drafts principles; ISDA reviews jurisdictions; IOSCO urges clarity; HCCH tackles cross-border law.",
+      "source": "W9 p29"
+    },
+    {
+      "id": "q068",
+      "topic": "t7",
+      "week": 10,
+      "difficulty": 1,
+      "skill": "apply",
+      "stem": "A Singapore SME wants to retire a few hundred credits from Verra and Gold Standard projects for its annual report, with as little administration as possible. What is the most suitable route?",
+      "options": [
+        "Open Verra and Gold Standard registry accounts, buy spot on an exchange, then retire the credits itself.",
+        "Sign a primary ERPA with each developer to secure forward delivery into its own registry accounts.",
+        "Join a buyer alliance such as Frontier, which pools small buyers and retires credits on their behalf.",
+        "Buy through a platform or service provider that retires the credits for it, without taking delivery."
+      ],
+      "answer": 3,
+      "rationales": [
+        "This works but adds cost and administration: separate registry accounts, each with its own interface, terms and fees, plus exchange access. It is overkill for a few hundred credits.",
+        "Primary ERPAs are wholesale, bespoke forward contracts with developers, which is far beyond what a small one-off retirement needs.",
+        "Frontier is an advance market commitment for carbon removals that aggregates large buyers' demand. It is not a retail retirement service.",
+        "Correct. For small volumes bought to retire, platforms and service providers offer curation, due diligence and retirement. Buying this way means the company does not have to take delivery."
+      ],
+      "takeaway": "Small buyers who only want to retire credits can use platforms and avoid taking delivery.",
+      "source": "W10 p5-6"
+    },
+    {
+      "id": "q069",
+      "topic": "t7",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "A trading firm wants to hold Verra VCUs and Gold Standard credits in its own name so that it can resell them. What must it do?",
+      "options": [
+        "Open no account at all, since resale only needs a contract that lists the credits' serial numbers.",
+        "Open one account at any registry, since registries are linked and credits move freely between all of them.",
+        "Open an exchange account only, since exchanges hold credits for members without involving a registry.",
+        "Open an account at each registry, since credits are delivered by transfer between accounts in that registry."
+      ],
+      "answer": 3,
+      "rationales": [
+        "A contract can transfer the economic interest, but holding credits in its own name requires a registry account.",
+        "Registries are not interchangeable. If you want Verra credits you need a Verra account, and if you want Gold Standard credits you need a Gold Standard account.",
+        "Exchanges facilitate trading, but delivery still settles into registry accounts.",
+        "Correct. Credits are stored in a registry and delivered by electronic transfer between accounts in it. To hold credits from different standards, a company must open multiple registry accounts, each with its own interface, terms and fees."
+      ],
+      "takeaway": "Taking delivery means opening a registry account with each standard you want to hold.",
+      "source": "W10 p5, p7"
+    },
+    {
+      "id": "q070",
+      "topic": "t7",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "A tech company wants the lowest-cost access to credits and strong control over their quality. It has in-house expertise and can accept long lead times and the risk that a methodology is rejected. Which transaction type fits best?",
+      "options": [
+        "A forward offtake agreement, paying on later delivery to hedge itself against price volatility.",
+        "A spot purchase direct from a developer, avoiding broker fees and any long-term commitment.",
+        "A project investment, entering at origination for control over quality and low-cost access.",
+        "A spot purchase via an exchange, gaining immediate access to a liquid and broad product range."
+      ],
+      "answer": 2,
+      "rationales": [
+        "Offtakes give cheaper access and a hedge, but less control and involvement than investing directly in the project.",
+        "Spot purchases from developers avoid commitment but offer little control over quality, and unsold stock may raise quality concerns.",
+        "Correct. In the MSCI framework, investing in a project, especially one developing a new methodology, offers competitive advantage, strong control over quality and the lowest-cost access. In return it needs expertise, accepts long lead times and carries the risk that the methodology is rejected.",
+        "Exchange spot buying gives liquidity and immediacy, but costs more and offers no control over the project."
+      ],
+      "takeaway": "Further upstream means more control and lower cost, but more expertise needed and more risk.",
+      "source": "W10 p8 (application may be tested)"
+    },
+    {
+      "id": "q071",
+      "topic": "t7",
+      "week": 10,
+      "difficulty": 3,
+      "skill": "compare",
+      "stem": "A buyer pays US$5 million in 2026 for credits to be delivered between 2028 and 2030. What type of transaction is this, and what is its key exposure?",
+      "options": [
+        "A pre-purchase agreement, exposing the buyer to non-delivery since it pays before any credits are issued.",
+        "A spot transaction, exposing the buyer to quality risk since the developer's stock may be unsold for a reason.",
+        "A forward agreement, exposing the buyer to price risk since it pays the market price on each delivery.",
+        "A project investment, exposing the buyer to methodology risk since it funds a new crediting approach."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Paying now and receiving later is a pre-purchase. The buyer commits capital up front, and delivery is not certain.",
+        "Spot means immediate delivery of existing credits. Here delivery comes years later.",
+        "A forward agreement means paying later on delivery, usually at a pre-agreed price. Here payment is up front.",
+        "The buyer is purchasing future credits, not taking an equity stake or funding the development of a methodology."
+      ],
+      "takeaway": "Pre-purchase: pay now, receive later. Forward: pay later, receive later. Both carry delivery risk.",
+      "source": "W10 p8"
+    },
+    {
+      "id": "q072",
+      "topic": "t7",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "Project X fails to deliver the credits it promised forward buyers. Why can't the developer simply buy 'equivalent' credits from Project Y at a single market price to make good?",
+      "options": [
+        "Credits from other projects carry no serial numbers, so their delivery cannot be confirmed on a registry.",
+        "Credits can be delivered only from the project named in the ERPA, since substituting them is legally barred.",
+        "Credits from other projects must be retired immediately, so they cannot be transferred to another buyer.",
+        "Credits differ by registry, methodology and jurisdiction, so few are true substitutes at a single price."
+      ],
+      "answer": 3,
+      "rationales": [
+        "Every issued credit carries a serial number, so delivery can always be confirmed.",
+        "ERPAs often include replacement clauses, so substitution is not barred. It is just hard to find a true equivalent.",
+        "Issued credits can be transferred before retirement. Nothing forces immediate retirement.",
+        "Correct. VCM pricing is fragmented across registries, methodologies and jurisdictions, with no single price. That fragmentation makes substitution hard and keeps deep pools of liquidity from forming."
+      ],
+      "takeaway": "Fragmented pricing makes credits poor substitutes for one another and limits liquidity.",
+      "source": "W10 p9 (annotation)"
+    },
+    {
+      "id": "q073",
+      "topic": "t7",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "compare",
+      "stem": "A buyer chooses to trade on an exchange rather than over the counter, even though exchange contracts cannot be tailored. What is the main advantage it gains?",
+      "options": [
+        "Exchange contracts name a single specific project, so the buyer knows exactly which credits it will get.",
+        "Central clearing removes its exposure to the counterparty's performance, and terms need no negotiation.",
+        "Exchange prices include a corresponding adjustment, so the credits are automatically eligible for CORSIA.",
+        "The exchange guarantees the quality of every credit, so the buyer no longer needs to do due diligence."
+      ],
+      "answer": 1,
+      "rationales": [
+        "Exchange contracts are usually standardised across many projects, often on a cheapest-to-deliver basis, so the buyer may not know which project it will receive.",
+        "Correct. In the classical exchange model, central clearing removes exposure to the counterparty's performance, with implications for KYC, credit risk and delivery risk. Standardisation removes the need to negotiate each deal.",
+        "Corresponding adjustments depend on host-country authorisation, not on the trading venue. Some contracts do target CORSIA units, but the venue itself does not confer eligibility.",
+        "Standardised criteria set a minimum bar, but exchanges do not guarantee each credit's quality."
+      ],
+      "takeaway": "Exchanges offer central clearing and standardisation; OTC offers customisation.",
+      "source": "W10 p10, p12"
+    },
+    {
+      "id": "q074",
+      "topic": "t7",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "predict",
+      "stem": "A buyer goes long a CIX Nature X contract, under which credits from eleven different REDD+ projects can be delivered. Which credits is it most likely to receive?",
+      "options": [
+        "Whichever eligible credits are cheapest for the seller, since the seller decides what to deliver.",
+        "Whichever eligible credits the buyer nominates, since the buyer chooses at the time of settlement.",
+        "An equal mix of all eligible projects, since the exchange pro-rates delivery across the basket.",
+        "The highest-rated eligible credits, since the exchange ranks deliverable projects by integrity."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Under cheapest-to-deliver, any eligible credit satisfies the contract, so the seller delivers the lowest-cost one. That is why the price spread within the basket should not be too wide.",
+        "The buyer does not choose. That optionality sits with the seller.",
+        "Delivery is not pro-rated across the basket. The seller picks.",
+        "Exchanges set eligibility criteria but do not rank projects for delivery."
+      ],
+      "takeaway": "Standardised contracts are typically cheapest-to-deliver: the seller delivers the lowest-cost eligible credit.",
+      "source": "W10 p13-14"
+    },
+    {
+      "id": "q075",
+      "topic": "t7",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "Why do exchanges list standardised contracts, such as 'nature-based, Southeast Asia, issued after 2019', rather than contracts for individual projects?",
+      "options": [
+        "To pool supply from many projects into one contract, deepening liquidity and aiding price risk management.",
+        "To raise credit quality, since registries issue credits only to projects that meet every listed criterion.",
+        "To guarantee corresponding adjustments, since standardised contracts accept only authorised units.",
+        "To avoid KYC obligations, since standardised contracts do not need to identify either buyer or seller."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Standardisation lets liquidity concentrate, bringing greater fungibility, more room for substitution and better price risk management. It also guards against manipulation and price dislocations.",
+        "Registries issue credits under their own standards, not under exchange contract criteria. The criteria only define what can be delivered.",
+        "Authorisation is a separate matter. Most standardised contracts are not built around corresponding adjustments.",
+        "KYC requirements still apply. Clearing changes who bears the risk; it does not remove identification."
+      ],
+      "takeaway": "Standardised contracts pool liquidity, aid substitution and support price discovery.",
+      "source": "W10 p13 (annotation)"
+    },
+    {
+      "id": "q076",
+      "topic": "t7",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "A buyer and a developer negotiating an IETA primary ERPA want the right to reprice or exit if Verra revises the methodology the project relies on. Which clause best achieves this?",
+      "options": [
+        "A change-in-law clause defined to cover changes to the carbon standard's rules, not just legislation.",
+        "A delivery-window clause, which allows for registry delays before either party can declare a default.",
+        "A pay-on-delivery clause, which holds the buyer's payment in escrow until the credits are transferred.",
+        "A price-floor clause, which fixes a minimum price whatever happens to the market or to the methodology."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. A carbon-specific feature of ERPAs is that 'change of law' includes changes to the rules of the carbon standard, such as Verra's. Such a clause lets the parties reprice or exit if those rules change.",
+        "Delivery windows handle registry and verification delays. They do not handle a permanent cut in issuance.",
+        "Escrow protects against counterparty default. It does not adjust terms when the rules change.",
+        "A price floor addresses price risk and would not give either party an exit if the methodology changes."
+      ],
+      "takeaway": "ERPAs define 'change of law' to include changes to the carbon standard's rules.",
+      "source": "W10 p11, p24"
+    },
+    {
+      "id": "q077",
+      "topic": "t7",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "A group of tech firms wants to speed up nascent carbon removal technologies that cannot yet deliver at scale. Which purchasing approach best fits this aim?",
+      "options": [
+        "A standardised futures contract, letting buyers hedge prices on removals already being issued.",
+        "A retail marketplace purchase, which curates and retires small volumes on each firm's behalf.",
+        "An advance market commitment that pools buyers' demand and contracts mainly on a forward basis.",
+        "A spot purchase on an exchange, giving immediate delivery from a broad range of existing projects."
+      ],
+      "answer": 2,
+      "rationales": [
+        "Futures depend on liquid, standardised supply, which early-stage removals do not have.",
+        "Retail marketplaces suit small retirements, not building demand for new technology.",
+        "Correct. Frontier is an advance market commitment for removals. It aggregates demand, runs regular RFPs and relies mostly on forward contracts, given how early-stage the technology is.",
+        "Spot buying needs credits that already exist. Nascent removals cannot yet supply them at scale."
+      ],
+      "takeaway": "Buyer alliances such as Frontier pool demand and buy forward to help nascent removals scale.",
+      "source": "W10 p15"
+    },
+    {
+      "id": "q078",
+      "topic": "t7",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "In its carbon removal RFPs, Microsoft requires suppliers to take on obligations if stored CO2 is released, to maintain a buffer and to notify it of reversals. What makes this possible?",
+      "options": [
+        "It buys CORSIA units, for which ICAO requires suppliers to hold a buffer and to notify reversals.",
+        "Its RFPs follow IETA's template, which requires these terms in every purchase of carbon removals.",
+        "It buys only on exchanges, whose rulebooks impose these obligations on every supplier of credits.",
+        "Its scale gives it leverage to set bespoke terms, such as reversal duties, buffers and notice."
+      ],
+      "answer": 3,
+      "rationales": [
+        "Microsoft's removals are voluntary purchases, not CORSIA compliance units.",
+        "IETA templates exist, but resourceful firms can draft their own. These terms come from Microsoft's own negotiation.",
+        "Microsoft's RFPs are bilateral procurement, not exchange trades.",
+        "Correct. Larger organisations may have the capacity and leverage to negotiate bespoke provisions. Microsoft's terms on reversal, buffers and notification are an example."
+      ],
+      "takeaway": "Large buyers can use RFPs to impose bespoke protections such as reversal and buffer obligations.",
+      "source": "W10 p11, p16"
+    },
+    {
+      "id": "q079",
+      "topic": "t7",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "compare",
+      "stem": "Which description best matches how carbon credits are mostly transacted today?",
+      "options": [
+        "Mostly through buyer alliances, which have replaced bilateral deals for most large-volume purchases.",
+        "Mostly on exchanges, where standardised contracts now provide deep liquidity across most credit types.",
+        "Mostly OTC or hybrid investment deals, with forwards and pre-purchases a big share of offtake.",
+        "Mostly through retail platforms, which now account for the bulk of credits retired by large companies."
+      ],
+      "answer": 2,
+      "rationales": [
+        "Buyer alliances such as Frontier matter for removals, but bilateral OTC deals still dominate.",
+        "Exchange-based instruments exist, but liquidity is limited to pockets.",
+        "Correct. Most transactions today are OTC trades or hybrid investment and streaming deals. In 2025, offtake overtook investment, and forwards and pre-purchases made up about two-thirds of offtake value.",
+        "Retail platforms serve small buyers. They are not the bulk of the market."
+      ],
+      "takeaway": "The market is mostly OTC and forward offtake; exchange liquidity remains thin.",
+      "source": "W10 p17"
+    },
+    {
+      "id": "q080",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "In 2023 Verra inactivated a rice cultivation methodology, and in 2024 it rejected 37 projects in China that had already issued millions of credits. Which risk does this illustrate?",
+      "options": [
+        "Invalidation risk, as credits or projects were rejected over problems with the methodology.",
+        "Reversal risk, as carbon already credited to the projects was released back into the atmosphere.",
+        "Political risk, as the host government changed its rules on which projects could export credits.",
+        "Price risk, as the market value of rice credits fell once buyers lost confidence in the projects."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Invalidation is the risk that credits or a whole project are invalidated through negligence, fraud, significant methodology shifts or reversals. The rice case is the course's invalidation precedent.",
+        "Rice methane credits are avoidance credits. Nothing stored was released, so this is not a reversal.",
+        "The decision came from the crediting programme, not a host government.",
+        "Prices may well have fallen, but the triggering event was the programme rejecting projects and their credits."
+      ],
+      "takeaway": "Methodology problems leading to rejected credits are invalidation risk.",
+      "source": "W10 p19, p22"
+    },
+    {
+      "id": "q081",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "Between 2015 and 2021, wildfires used up nearly one-fifth of California's forest offset buffer pool, which was designed to cover 100 years of reversal risk. What limitation of buffer pools does this expose?",
+      "options": [
+        "Buffer credits can be sold, so programmes run the pool down whenever market prices rise sharply.",
+        "Buffers cover only political risk, so any wildfire losses fall entirely on the credit holders instead.",
+        "Losses are correlated, so one bad stretch can drain a pool sized as if reversals were independent.",
+        "Buffers are funded by buyers' premiums, so the pool shrinks whenever buyers stop renewing cover."
+      ],
+      "answer": 2,
+      "rationales": [
+        "Buffer credits cannot be sold. That is why buffers raise the cost per credit delivered.",
+        "Buffers exist to cover reversal, such as fire, not political risk.",
+        "Correct. A buffer is the system insuring itself. Because wildfire losses are correlated across projects, a few bad years can consume reserves meant to last a century.",
+        "Buffers are funded by projects setting aside a share of their credits, not by buyers' premiums."
+      ],
+      "takeaway": "Buffer pools are self-insurance and are vulnerable to correlated losses.",
+      "source": "W10 p22, p26"
+    },
+    {
+      "id": "q082",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "predict",
+      "stem": "Under Verra's durability pilot, launched in December 2025, an eligible AFOLU project uses approved insurance instead of contributing credits to the pooled buffer. What is the main commercial benefit?",
+      "options": [
+        "The project no longer faces reversal risk, since insurance removes the need to monitor stored carbon.",
+        "Buyers no longer need due diligence, since an insured credit is guaranteed to be of high quality.",
+        "Credits that would have sat in the buffer can be issued and sold, improving capital efficiency.",
+        "The project's credits gain CORSIA eligibility automatically, since the insurance stands in for an LoA."
+      ],
+      "answer": 2,
+      "rationales": [
+        "Insurance transfers the financial consequence of a reversal. The physical risk and the need to monitor remain.",
+        "An insurer's willingness to cover may signal quality, but it guarantees nothing about the credit.",
+        "Correct. Buffer credits cannot be sold, which raises the cost per credit delivered. Replacing the buffer contribution with insurance releases those credits for issuance.",
+        "CORSIA eligibility still requires host-country authorisation. Insurance against a missing corresponding adjustment is a separate requirement."
+      ],
+      "takeaway": "Insurance in place of buffer contributions frees up credits that would otherwise be locked away.",
+      "source": "W10 p26, p30"
+    },
+    {
+      "id": "q083",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "compare",
+      "stem": "A developer's risk team asks which risks good project design and contracts cannot reduce, and so must be retained or transferred, for example to an insurer. Which pair is it?",
+      "options": [
+        "Counterparty risk and legal risk, which persist however carefully the developer drafts its contracts.",
+        "Operational risk and social risk, which depend on local communities the developer cannot influence.",
+        "Methodology risk and registry risk, which are set by the crediting programme rather than the developer.",
+        "Political risk and extreme weather, which sit outside the developer's control however well it designs."
+      ],
+      "answer": 3,
+      "rationales": [
+        "Counterparty and legal risk are classed as largely mitigable through project design and contracts.",
+        "Operational and social risk are also largely mitigable. Community engagement is part of good design.",
+        "Carbon-related risks such as registry and methodology are partly mitigable, partly outside the developer's control, but not unavoidable.",
+        "Correct. In Kita's framework, political risk and extreme weather or natural catastrophe are unavoidable. They cannot be designed out, so they must be retained or transferred."
+      ],
+      "takeaway": "Mitigable: operational, counterparty, legal, social. Partly: ecological, carbon, regulatory. Unavoidable: political, natural catastrophe.",
+      "source": "W10 p23"
+    },
+    {
+      "id": "q084",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "A forward buyer is worried that the developer will become insolvent after being paid but before delivering the credits. Which ERPA term most directly addresses this?",
+      "options": [
+        "A replacement clause, so the developer must deliver substitute credits after any shortfall that occurs.",
+        "Index-linked pricing, so the amount paid tracks the market price at the time of each delivery.",
+        "A delivery window, so registry delays do not trigger a default before the credits are actually issued.",
+        "Pay-on-delivery or escrow terms, so the buyer's money is released only once credits are transferred."
+      ],
+      "answer": 3,
+      "rationales": [
+        "A replacement clause depends on the developer being able to perform. An insolvent developer may not be able to deliver substitutes.",
+        "Pricing terms allocate price risk. They do not protect money already paid.",
+        "Delivery windows give the seller more time. They do not protect the buyer against insolvency.",
+        "Correct. Pay-on-delivery or escrow protects the buyer's payment until delivery. That addresses counterparty risk directly."
+      ],
+      "takeaway": "Escrow or pay-on-delivery addresses counterparty risk; replacement clauses still depend on the seller.",
+      "source": "W10 p24"
+    },
+    {
+      "id": "q085",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 3,
+      "skill": "diagnose",
+      "stem": "A forward buyer's ERPA contains a strong make-good clause. A fire destroys the project, and the developer becomes insolvent. Why may the clause give the buyer little protection?",
+      "options": [
+        "Make-good clauses cover only invalidation, so a reversal caused by fire falls outside the clause's scope.",
+        "Make-good clauses need approval from the crediting programme, which is rarely given to forestry projects.",
+        "Make-good clauses are void unless credits are recognised as property under the law governing the ERPA.",
+        "A contractual remedy is only as good as the counterparty's ability to pay, and this developer cannot pay."
+      ],
+      "answer": 3,
+      "rationales": [
+        "Replacement and make-good clauses typically cover shortfall, reversal and cancellation, so fire is within scope. Enforcing the clause is the problem.",
+        "Contract terms between buyer and seller do not need approval from the crediting programme.",
+        "Contracts are enforceable whether or not credits are property. Contracts are what the market relies on today.",
+        "Correct. A contractual remedy depends on the other party's ability to pay, and an insolvent developer may be unable to pay damages or replace credits. Such remaining risks can be transferred to a third party such as an insurer."
+      ],
+      "takeaway": "Contracts reallocate risk only as far as the counterparty can pay; insurance can cover the rest.",
+      "source": "W10 p24"
+    },
+    {
+      "id": "q086",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 3,
+      "skill": "predict",
+      "stem": "An ERPA contains a broad force majeure and change-of-law clause. The host government then refuses to authorise the project's credits. Who most likely ends up bearing the loss?",
+      "options": [
+        "The host government, since refusing authorisation automatically triggers compensation under the ERPA.",
+        "The buyer, since the clause may excuse the seller's performance and leave the loss with the buyer.",
+        "The crediting programme, since its pooled buffer covers losses caused by refused authorisations.",
+        "The seller, since force majeure clauses protect only the party that has already received payment."
+      ],
+      "answer": 1,
+      "rationales": [
+        "The government is not a party to the ERPA, so the contract cannot make it pay compensation.",
+        "Correct. Force majeure and change-of-law clauses may excuse the seller, which leaves the risk with the buyer. Neither party controls government decisions.",
+        "Buffers cover reversal. Political risk such as refused authorisation falls outside them.",
+        "Force majeure typically excuses the party that cannot perform, here the seller. It does not protect whoever has been paid."
+      ],
+      "takeaway": "Force majeure and change-of-law clauses can push political risk onto the buyer.",
+      "source": "W10 p24"
+    },
+    {
+      "id": "q087",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "A bank has lent against a project's offtake receivables and is worried that the offtaker will not pay. Which Kita product is designed for this?",
+      "options": [
+        "Political Risk Insurance, which covers investors if a host government revokes a Letter of Authorisation.",
+        "Non-Delivery Insurance, which covers buyers when forward credits are not delivered in part or in full.",
+        "Counterparty Insurance, which covers early buyers if the developer abandons the project or goes insolvent.",
+        "Non-Payment Insurance, which covers lenders against non-payment on prepayments and offtake receivables."
+      ],
+      "answer": 3,
+      "rationales": [
+        "Political Risk Insurance covers government action. Here the risk is the offtaker's payment.",
+        "Non-Delivery covers credits that are not delivered. The bank's worry is that cash will not be paid.",
+        "Counterparty Insurance is for buyers and investors in very early-stage projects, not lenders worried about receivables.",
+        "Correct. Non-Payment Insurance is aimed at lenders and banks. It covers non-payment under project finance, prepayments and offtake receivables, which is counterparty risk."
+      ],
+      "takeaway": "Match the product to the risk and the insured: lenders' payment risk calls for Non-Payment Insurance.",
+      "source": "W10 p28-29"
+    },
+    {
+      "id": "q088",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "A trader wants protection against a sudden collapse in nature-based credit prices, like the 37% one-day fall in December 2022. What should it be told?",
+      "options": [
+        "Buffer Depletion Insurance covers price falls, since falling prices reduce the value of buffer credits.",
+        "Non-Delivery Insurance covers price falls, since claims can be paid in replacement credits instead.",
+        "Price risk is not covered by carbon insurance; it is managed through contract price terms and hedging.",
+        "Political Risk Insurance covers price falls, since prices usually fall after host-country rule changes."
+      ],
+      "answer": 2,
+      "rationales": [
+        "Buffer Depletion Insurance is bought by carbon standards to restore a depleted buffer, which is reversal risk.",
+        "Non-Delivery covers credits that are not delivered, not a fall in their market value.",
+        "Correct. Kita's product map explicitly excludes price risk, which is managed through contract terms such as fixed, floor or index-linked pricing, and through hedging.",
+        "Political Risk Insurance covers events such as confiscation or a revoked LoA, not market price movements."
+      ],
+      "takeaway": "Price risk is not insured; it is handled through contract pricing and hedging.",
+      "source": "W10 p22, p24, p28"
+    },
+    {
+      "id": "q089",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 3,
+      "skill": "apply",
+      "stem": "An investor funds a project at concept stage, before validation, and wants cover in case the developer abandons it or becomes insolvent. Which Kita product fits, and what can happen to it at validation?",
+      "options": [
+        "Non-Payment Insurance, which can convert into Non-Delivery Insurance once an offtake is signed with a buyer.",
+        "Political Risk Insurance, which can convert into Buffer Depletion Insurance once credits are issued.",
+        "Non-Delivery Insurance, which can convert into Counterparty Insurance once credits are first issued.",
+        "Counterparty Insurance, which can convert into Non-Delivery Insurance once the project is validated."
+      ],
+      "answer": 3,
+      "rationales": [
+        "Non-Payment covers lenders' receivables. It is not the pre-validation product.",
+        "Political Risk and Buffer Depletion insure different parties against different risks, and neither converts into the other.",
+        "This reverses the conversion, which runs from Counterparty to Non-Delivery at validation.",
+        "Correct. Counterparty Insurance is designed for pre-validation projects, covering a developer that abandons the project or becomes insolvent. It can convert into Non-Delivery Insurance at validation."
+      ],
+      "takeaway": "Counterparty Insurance covers pre-validation projects and converts to Non-Delivery at validation.",
+      "source": "W10 p28-29"
+    },
+    {
+      "id": "q090",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "compare",
+      "stem": "Who is the insured party under Kita's Buffer Depletion Insurance?",
+      "options": [
+        "Lenders, to protect the value of buffer credits that are pledged as security for project loans.",
+        "The carbon standard itself, to restore its pooled buffer if losses deplete it past a set threshold.",
+        "Forward buyers, to receive replacement credits if the buffer cannot cover a reversal on their project.",
+        "Each project developer, to replace its own contribution to the buffer if its stored carbon is lost."
+      ],
+      "answer": 1,
+      "rationales": [
+        "Buffer credits cannot be sold or pledged. Lenders use Non-Payment Insurance.",
+        "Correct. Buffer Depletion Insurance is bought by carbon standards at pool level. It pays compensation to restore the buffer once losses pass an agreed threshold, which addresses reversal risk.",
+        "Forward buyers typically use Non-Delivery Insurance to protect their position.",
+        "Developers contribute to the buffer, but this product insures the pool as a whole, not each contribution."
+      ],
+      "takeaway": "Buffer Depletion Insurance protects the carbon standard's pool, not individual participants.",
+      "source": "W10 p28-29"
+    },
+    {
+      "id": "q091",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 3,
+      "skill": "apply",
+      "stem": "A developer plans to sell units into CORSIA's First Phase. Why does insurance matter for whether those units are eligible?",
+      "options": [
+        "Airlines can claim insurance payouts as reductions, which lowers their offsetting requirements.",
+        "ICAO requires every EEU to carry non-delivery cover so that airlines are compensated for delays.",
+        "Programmes require cover against the host country failing to apply a corresponding adjustment.",
+        "Insured credits are exempt from the 2016 start-date rule, which widens the eligible supply pool."
+      ],
+      "answer": 2,
+      "rationales": [
+        "Insurance payouts are cash or replacement credits. They are not emissions reductions an airline can claim.",
+        "No such ICAO rule exists. The insurance link concerns corresponding adjustments, not delivery delays.",
+        "Correct. For the First Phase, Gold Standard and Verra require cover against a host country failing to apply a corresponding adjustment. Approved insurance helps make those credits eligible.",
+        "Insurance does not override the start-date or vintage tests for eligible units."
+      ],
+      "takeaway": "For CORSIA's First Phase, programmes require insurance against a failed corresponding adjustment.",
+      "source": "W10 p30; W6 p19-21"
+    },
+    {
+      "id": "q092",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "An insurer notices that the projects most eager to buy non-delivery cover tend to have problems it cannot see from the outside. Which challenge in pricing carbon insurance is this?",
+      "options": [
+        "Moral hazard, as insured developers may take less care once their losses are covered by a policy.",
+        "Limited claims history, as most carbon policies are too new to give much loss data for pricing.",
+        "Signalling, as the market may read an insurer's willingness to provide cover as a quality mark.",
+        "Adverse selection, as buyers keenest on cover may carry risks that the insurer cannot observe."
+      ],
+      "answer": 3,
+      "rationales": [
+        "Moral hazard concerns behaviour after cover is bought. The scenario describes hidden risk before cover is bought.",
+        "Thin loss data is a separate pricing challenge. The scenario is about who self-selects into cover.",
+        "Signalling is a real challenge, but it concerns how the market reads the insurer's decision, not who seeks cover.",
+        "Correct. Adverse selection means those who most want cover may be the ones with risks the insurer cannot observe."
+      ],
+      "takeaway": "Adverse selection: the riskiest projects are the keenest buyers of cover.",
+      "source": "W10 p31"
+    },
+    {
+      "id": "q093",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 3,
+      "skill": "diagnose",
+      "stem": "Koko Networks held a US$179.6m MIGA guarantee covering expropriation, war and civil disturbance, transfer restriction and breach of contract. Kenya then declined to authorise its credits. Why might the guarantee not respond?",
+      "options": [
+        "The guarantee lapsed once credits were sold to traders, since cover ends when credits change hands.",
+        "Declining to authorise may be a lawful use of discretion, not a breach of contract or expropriation.",
+        "The guarantee covered traders' credits rather than Koko's investment, so Koko had no claim to make.",
+        "MIGA covers only war and civil disturbance, so any government decision falls outside the guarantee."
+      ],
+      "answer": 1,
+      "rationales": [
+        "The guarantee covered Koko's investment for up to 15 years and was not tied to who held the credits.",
+        "Correct. Whether the refusal breached the unpublished 2024 Investment Framework Agreement is an open question. A breach-of-contract guarantee may not respond if the government was exercising a lawful discretion. Cover is limited to the policy's terms.",
+        "It was the reverse: MIGA covered Koko's investment in its Kenyan subsidiary, and the traders had no cover.",
+        "The guarantee also covered expropriation, transfer restriction and breach of contract. The question is whether this event fits any of them."
+      ],
+      "takeaway": "Insurance cover is limited to its terms; a lawful refusal to authorise may fall outside it.",
+      "source": "W10 p3, p32"
+    },
+    {
+      "id": "q094",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 3,
+      "skill": "diagnose",
+      "stem": "Through 2025, traders bought Koko credits at around US$12 each, expecting a Letter of Authorisation that never came. Which statement best describes their position?",
+      "options": [
+        "They bought before authorisation, holding uninsured political risk, and so they bore the loss.",
+        "They held CORSIA-eligible units, so the loss fell on the airlines that had planned to cancel them.",
+        "They could claim against the registry, since ICAO holds registries liable when an LoA is refused.",
+        "They were covered by MIGA's guarantee, so their loss passed to the World Bank Group's insurance arm."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Buying credits before authorisation exposed the traders to political risk. Much of the loss was uninsured, and the traders had no cover.",
+        "Without an LoA, and so without a corresponding adjustment, the credits were never CORSIA-eligible.",
+        "Registry liability concerns a host country revoking an LoA that was granted for eligible units. Here no LoA was ever issued.",
+        "MIGA's guarantee covered Koko's investment, not the traders' credits."
+      ],
+      "takeaway": "Buying before authorisation means holding uninsured political risk, as the Koko traders found.",
+      "source": "W10 p3, p32 (annotation); W6 p21"
+    },
+    {
+      "id": "q095",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "compare",
+      "stem": "A crediting programme revises the REDD+ methodology a project relies on, cutting the credits it can expect to issue. How does this affect the forward buyer, as distinct from the other parties?",
+      "options": [
+        "Nothing changes for it, since forward contracts lock in volumes regardless of later rule changes.",
+        "Its contracted volumes may fall short, and replacement credits may cost more than it agreed to pay.",
+        "Confidence in other projects using the methodology, and in the buffer pool, may be weakened.",
+        "Money it already spent on project design and validation now produces fewer credits than planned."
+      ],
+      "answer": 1,
+      "rationales": [
+        "Contracts cannot create credits that the methodology no longer supports. Change-of-law clauses may even excuse the seller.",
+        "Correct. For the forward buyer, contracted volumes are not delivered in full, and replacement credits may cost more.",
+        "That is the effect on the crediting programme and its other projects.",
+        "That is the developer's loss: its sunk costs now produce fewer credits."
+      ],
+      "takeaway": "The same event hits the developer, the forward buyer and the crediting programme differently.",
+      "source": "W10 p21; p34 recap 2"
+    },
+    {
+      "id": "q096",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "A buyer purchases issued credits spot and holds them for three years before retiring them. Which risks does it carry while holding them?",
+      "options": [
+        "Counterparty risk alone, which peaks after issuance and lasts until the credits are retired.",
+        "Reversal, invalidation and price risk, which stay with whoever holds credits after issuance.",
+        "No material risk, since issued credits are fixed on the registry and can no longer change.",
+        "Non-delivery and political risk, which are highest for whoever holds credits after issuance."
+      ],
+      "answer": 1,
+      "rationales": [
+        "Counterparty risk peaks around issuance and is largely settled once a spot trade completes.",
+        "Correct. After issuance, reversal and invalidation risks remain with the holder, and price exposure keeps growing.",
+        "Issued credits can still be invalidated or affected by reversals, and their market value can change.",
+        "Non-delivery and political risk are highest before validation, not after issuance."
+      ],
+      "takeaway": "Buying issued credits costs more and carries less risk, but reversal, invalidation and price risk remain.",
+      "source": "W10 p20 (words tested)"
+    },
+    {
+      "id": "q097",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "A buyer signs a forward contract for credits from a project that has not yet been validated. At this stage of the lifecycle, which risks are highest?",
+      "options": [
+        "Counterparty risk alone, which peaks before validation and then falls away once the deal is signed.",
+        "Reversal and invalidation risk, which are at their highest before the project has been validated.",
+        "Non-delivery and political risk, which are at their highest before the project has been validated.",
+        "Price risk alone, since the buyer has fixed its volumes but not the price it will pay on delivery."
+      ],
+      "answer": 2,
+      "rationales": [
+        "Counterparty risk peaks around issuance, not before validation, and signing a contract does not remove it.",
+        "Reversal and invalidation stay with the holder after issuance. They are not at their peak before validation.",
+        "Correct. Before validation, non-delivery and political risk are highest. Buying early is cheaper and gives more influence, but exposes the buyer to more risk.",
+        "Forward contracts usually fix the price in advance, and price exposure grows over the lifecycle rather than peaking early."
+      ],
+      "takeaway": "Before validation: non-delivery and political risk peak. Around issuance: counterparty risk. After: reversal, invalidation, price.",
+      "source": "W10 p20 (words tested)"
+    },
+    {
+      "id": "q098",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 1,
+      "skill": "compare",
+      "stem": "Compared with buying credits that have already been issued, buying early in a project's lifecycle typically:",
+      "options": [
+        "Costs more but removes reversal risk, since credits bought early are drawn from the buffer pool.",
+        "Costs more and gives less influence, but fixes the price and removes the buyer's price exposure.",
+        "Costs less and carries less risk, since the developer bears all losses until credits are issued.",
+        "Costs less and gives more influence over the project, but leaves the buyer exposed to more risks."
+      ],
+      "answer": 3,
+      "rationales": [
+        "Early buying is typically cheaper, and buffer credits are never sold to buyers.",
+        "This reverses both cost and influence. Early buyers typically pay less and have more say.",
+        "Early buyers carry more risk, not less. Losses before issuance can fall on them, for example through non-delivery.",
+        "Correct. Buying early is usually cheaper and gives the buyer more influence over the project, but exposes it to more risks."
+      ],
+      "takeaway": "Exposure depends on when you buy: earlier means cheaper and more influence, but more risk.",
+      "source": "W10 p20; p34 recap 1"
+    },
+    {
+      "id": "q099",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "A developer in a country with an unstable government wants to protect its project against confiscation and a revoked Letter of Authorisation. Which product, and which kind of risk is it?",
+      "options": [
+        "Political Risk Insurance, covering confiscation, export bans and revoked LoAs, paid out in cash.",
+        "Non-Delivery Insurance, covering natural catastrophe, fraud and negligence, paid in replacement credits.",
+        "Buffer Depletion Insurance, covering a buffer depleted past a threshold, paid to restore the pool.",
+        "Counterparty Insurance, covering developer abandonment or insolvency before the project is validated."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Political Risk Insurance covers confiscation, export bans, revoked carbon rights, a revoked LoA or corresponding adjustment, political violence and forced abandonment. It is aimed at developers, investors and lenders.",
+        "Non-Delivery Insurance is primarily for buyers and investors and covers shortfalls from catastrophe, fraud and negligence. Government action is political risk.",
+        "Buffer Depletion Insurance is bought by carbon standards for reversal risk.",
+        "Counterparty Insurance covers the developer's own failure. Here the risk comes from the government."
+      ],
+      "takeaway": "Developers facing host-government risk use Political Risk Insurance.",
+      "source": "W10 p28-29"
+    }
+  ]
+}
