@@ -3,7 +3,7 @@
 A self-quizzing tool for **BF3122 Carbon Markets**, covering Weeks 6, 9 and 10 (Quiz 2 scope).
 The Quiz 1 version (Weeks 1–4) lives at [bf3122-carbon-markets-quiz](https://github.com/test2run/bf3122-carbon-markets-quiz).
 
-**99 multiple-choice questions.** Every one tests applied or conceptual understanding: working out an
+**130 multiple-choice questions** (47 of them hard). Every one tests applied or conceptual understanding: working out an
 airline's CORSIA obligation on a given route, classifying a company's claim, picking the ERPA clause or
 insurance product for a stated risk, or judging which law governs a disputed credit. No question asks you
 to recall a statistic for its own sake. Where numbers appear, they are scenario inputs to reason with.
@@ -26,18 +26,19 @@ Mapped to the recap slide that closes each lecture:
 
 | # | Topic | Week | Qs |
 |---|---|---|---|
-| 1 | Aviation emissions & ICAO's role | 6 | 7 |
-| 2 | CORSIA design & offsetting obligations | 6 | 12 |
-| 3 | Eligible units, fuels, criticisms & the EU | 6 | 12 |
-| 4 | Claims, greenwashing & claim vocabulary | 9 | 11 |
-| 5 | VCMI & SBTi standards | 9 | 14 |
-| 6 | Government guidance & legal nature of credits | 9 | 11 |
-| 7 | Transaction pathways | 10 | 12 |
-| 8 | Risk, contracts & insurance | 10 | 20 |
+| 1 | Aviation emissions & ICAO's role | 6 | 8 |
+| 2 | CORSIA design & offsetting obligations | 6 | 16 |
+| 3 | Eligible units, fuels, criticisms & the EU | 6 | 17 |
+| 4 | Claims, greenwashing & claim vocabulary | 9 | 13 |
+| 5 | VCMI & SBTi standards | 9 | 18 |
+| 6 | Government guidance & legal nature of credits | 9 | 15 |
+| 7 | Transaction pathways | 10 | 16 |
+| 8 | Risk, contracts & insurance | 10 | 27 |
 
 Content is drawn from the lecture slides and their annotations. Material flagged in class as "must
 know" or "may be tested", boxed in red, or starred gets more weight. Material marked NT (not tested) is
-left out.
+left out. A couple of hard questions deliberately go beyond the slides on EU ETS/CORSIA edge cases;
+their source line says so.
 
 ## Files
 
