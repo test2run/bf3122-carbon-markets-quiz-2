@@ -2,9 +2,9 @@
   "meta": {
     "course": "BF3122",
     "title": "Sectoral Approaches, Claims & Commercial Considerations",
-    "scope": "Weeks 6, 9–10 (Quiz 2)",
-    "version": "1.1",
-    "updated": "2026-10-24",
+    "scope": "Weeks 6, 9–10 + BeZero Case (Quiz 2)",
+    "version": "1.2",
+    "updated": "2026-10-25",
     "note": "Every question tests applied or conceptual understanding. No question asks you to recall a statistic, date or figure for its own sake; where numbers appear they are scenario inputs to reason with."
   },
   "topics": [
@@ -47,6 +47,11 @@
       "id": "t8",
       "week": 10,
       "name": "Risk, contracts & insurance"
+    },
+    {
+      "id": "t9",
+      "week": "BeZero Case",
+      "name": "BeZero Case & Commodity vs Fixed Income view"
     }
   ],
   "questions": [
@@ -3039,6 +3044,535 @@
       ],
       "takeaway": "Delivery insurance makes offtake revenues bankable for non-recourse finance.",
       "source": "W10 p30"
+    },
+    {
+      "id": "q131",
+      "topic": "t9",
+      "week": "BeZero Case",
+      "difficulty": 1,
+      "skill": "compare",
+      "stem": "Which statement best captures the difference between the commodity paradigm and the fixed income paradigm for carbon credits?",
+      "options": [
+        "Commodity treats credits as fungible units priced in bulk; fixed income prices each credit on its own risk of delivery.",
+        "Commodity treats credits as project-specific assets; fixed income treats them as identical units traded on exchanges.",
+        "Commodity relies on ratings to set prices; fixed income relies on crediting standards to certify that each tonne is real.",
+        "Commodity prices credits by vintage alone; fixed income prices them by the interest rate earned while they are held."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. The commodity view sees credits as fungible and scales the market through standardised, exchange-traded contracts. The fixed income view sees each credit as a heterogeneous asset, like a bond, whose price should reflect its specific risk of not delivering a full tonne.",
+        "This reverses the two paradigms. Fungibility and exchange trading belong to the commodity view.",
+        "Ratings sit naturally with the fixed income view, as with credit ratings for bonds. The commodity view relied on standards and fungibility.",
+        "Credits pay no interest. The bond analogy is about differentiated risk, not yield, and vintage is only one attribute."
+      ],
+      "takeaway": "Commodity: fungible units, standardised contracts. Fixed income: heterogeneous assets priced on risk.",
+      "source": "BeZero Case pp8-9, 18"
+    },
+    {
+      "id": "q132",
+      "topic": "t9",
+      "week": "BeZero Case",
+      "difficulty": 2,
+      "skill": "compare",
+      "stem": "Why do EU Allowances (EUAs) fit the commodity paradigm far more naturally than project-based carbon credits do?",
+      "options": [
+        "EUAs never change in price, whereas credit prices move with methodology and project news.",
+        "Each EUA is an identical right to emit a tonne, whoever holds it; credits carry their project's own risks.",
+        "EUAs are issued only to verified projects, while any developer can issue credits unverified.",
+        "EUAs are traded only over the counter, whereas credits were always traded mostly on organised exchanges."
+      ],
+      "answer": 1,
+      "rationales": [
+        "EUA prices do fluctuate over time. Fungibility is about interchangeability, not price stability.",
+        "Correct. An allowance is a government-issued permit not tied to any project, so one EUA is essentially identical to another. That makes allowances fungible and suited to futures and derivatives markets. Credits are issued for specific projects and inherit those projects' differences.",
+        "Allowances are not linked to projects at all. That absence of a project is exactly what makes them fungible.",
+        "EUAs have traded in active futures and derivatives markets since 2005, while credits have mostly traded over the counter."
+      ],
+      "takeaway": "Allowances are fungible because they are not tied to projects; credits inherit project-level differences.",
+      "source": "BeZero Case pp4-5 (Figure 1)"
+    },
+    {
+      "id": "q133",
+      "topic": "t9",
+      "week": "BeZero Case",
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "Many experienced market participants long assumed that carbon credits were fungible, like a commodity. Which historical factor best explains this assumption?",
+      "options": [
+        "Voluntary standards like Gold Standard were founded to make credits identical to allowances in every respect.",
+        "In earlier EU ETS phases, eligible credits could be delivered into the scheme, making them interchangeable.",
+        "Under the Kyoto Protocol, every credit was certified by the same UN body, so all credits shared one methodology.",
+        "Registries have always guaranteed that each credit delivers a full tonne, so buyers had no reason to tell them apart."
+      ],
+      "answer": 1,
+      "rationales": [
+        "Voluntary standards often began as constructive critics of the CDM. They were not created to mimic allowances.",
+        "Correct. The assumption of fungibility was largely a legacy of earlier EU ETS phases, when CDM and JI credits could be delivered into the scheme. In that context a credit discharged the same liability as an allowance, so it was fungible in that respect.",
+        "Kyoto mechanisms covered very different project types and methodologies, so credits were never uniform in substance.",
+        "Registries record issuance, transfer and retirement. They do not guarantee that a credit delivers a full tonne."
+      ],
+      "takeaway": "The fungibility assumption is a legacy of credits being deliverable into earlier EU ETS phases.",
+      "source": "BeZero Case pp4-5, 11"
+    },
+    {
+      "id": "q134",
+      "topic": "t9",
+      "week": "BeZero Case",
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "A buyer asks why a Verra cookstove credit cannot simply be swapped one-for-one for a Gold Standard cookstove credit, since each represents one tonne. What is the best answer?",
+      "options": [
+        "Swaps are allowed, but only after both credits have been retired, so that the swap cannot create any double counting.",
+        "The two standards trade in different currencies, so the swap needs an exchange rate that the registries publish daily.",
+        "Gold Standard credits are always removals, while Verra credits are always avoidance, so they measure different gases.",
+        "Each standard sets its own issuance rules, so a credit under one doesn't meet the other's or ensure the same outcome."
+      ],
+      "answer": 3,
+      "rationales": [
+        "Retired credits cannot be swapped at all. Retirement ends a credit's life.",
+        "There is no exchange rate between standards. That is precisely the point: credits are not convertible like currencies.",
+        "Both standards issue both types of credit, depending on the project. The difference lies in methodology and rules.",
+        "Correct. Methodologies differ even within one project type, and a credit under one standard does not automatically meet another's requirements. There is no 'exchange rate' between standards, unlike currencies, so 'one credit per tonne' hides real diversity."
+      ],
+      "takeaway": "'One credit per tonne' masks large differences between standards, methodologies and projects.",
+      "source": "BeZero Case pp6-7"
+    },
+    {
+      "id": "q135",
+      "topic": "t9",
+      "week": "BeZero Case",
+      "difficulty": 3,
+      "skill": "apply",
+      "stem": "Two REDD+ projects sit in the same country and use the same standard and the same methodology. Under the fixed income view, should their credits trade at the same price?",
+      "options": [
+        "Yes, since any remaining differences are absorbed by the buffer pool, which equalises risk across both projects.",
+        "Not necessarily, since partners, track record and site conditions differ and can change each credit's risk.",
+        "Yes, since a shared jurisdiction, standard and methodology make the credits interchangeable.",
+        "Not necessarily, but only because vintages differ; with equal vintages they would price equally."
+      ],
+      "answer": 1,
+      "rationales": [
+        "Buffer pools address reversal risk only. They do not remove differences in additionality, over-crediting or execution.",
+        "Correct. Even projects with the same jurisdiction, standard and methodology vary in project partners, execution track record and site conditions. Like issuers of bonds, they can carry different risks, so the fixed income view prices them separately.",
+        "Shared rules do not make outcomes identical. That assumption belongs to the commodity view.",
+        "Vintage is one attribute, but the fixed income view looks at project-level risk across many factors, not vintage alone."
+      ],
+      "takeaway": "Under the fixed income view, project-level differences matter even within one standard and methodology.",
+      "source": "BeZero Case p7"
+    },
+    {
+      "id": "q136",
+      "topic": "t9",
+      "week": "BeZero Case",
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "Before rating agencies existed, criticism of a project was often met with the reply 'But we followed the methodology!'. What weakness of the traditional quality assurance system does this reveal?",
+      "options": [
+        "Registries refused to publish project documents, so nobody outside the project could see what had been claimed.",
+        "Validation bodies were accredited by no one, so they had no rules to check compliance against.",
+        "Checks focused on whether a project complied with its methodology, not whether it truly delivered a tonne.",
+        "Methodologies were written by the developers themselves, so every project could set its own rules for credits."
+      ],
+      "answer": 2,
+      "rationales": [
+        "Registries do publish project documents. The problem was that they were unstructured PDFs, not that they were secret.",
+        "In the traditional ecosystem, validation and verification bodies were accredited by the crediting standard.",
+        "Correct. In the traditional system, the crediting standard governed the methodology, developers followed it, and validation and verification bodies checked compliance. Nobody independently assessed whether each project's credits actually delivered the claimed tonnes.",
+        "Methodologies are established by the crediting standard, not written by each developer for itself."
+      ],
+      "takeaway": "The traditional system checked compliance with methodology, not the actual outcome of each project.",
+      "source": "BeZero Case pp11-12 (Figure 3)"
+    },
+    {
+      "id": "q137",
+      "topic": "t9",
+      "week": "BeZero Case",
+      "difficulty": 2,
+      "skill": "compare",
+      "stem": "After 2023, the quality assurance ecosystem gained two new layers. Which pairing correctly describes what each one assesses?",
+      "options": [
+        "Meta-standards such as ICVCM assess each project; rating agencies assess standards and methodologies.",
+        "Meta-standards such as ICVCM accredit validation bodies; rating agencies set the methodologies projects must follow.",
+        "Meta-standards such as ICVCM assess standards and methodologies; rating agencies assess individual projects.",
+        "Meta-standards such as ICVCM issue the credits; rating agencies verify that each project followed its methodology."
+      ],
+      "answer": 2,
+      "rationales": [
+        "This swaps the two roles. ICVCM's double tick covers programmes and methodology categories, not each project.",
+        "Crediting standards accredit validation and verification bodies and establish methodologies. Neither new layer does this.",
+        "Correct. ICVCM sits above crediting standards, vetting standards and methodologies against the Core Carbon Principles. Rating agencies assess projects themselves, one by one, adding a project-level layer that was missing.",
+        "Crediting standards issue credits, and validation and verification bodies check compliance. The new layers assess quality above those."
+      ],
+      "takeaway": "Meta-standards assess standards and methodologies top-down; ratings assess projects bottom-up.",
+      "source": "BeZero Case pp17, 19 (Figure 8)"
+    },
+    {
+      "id": "q138",
+      "topic": "t9",
+      "week": "BeZero Case",
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "The TSVCM's 2021 blueprint for scaling the voluntary market drew mainly on commodity markets. Which of its recommendations most clearly reflects that paradigm?",
+      "options": [
+        "Requiring buyers to audit each project on site before they are allowed to retire its credits.",
+        "Creating core carbon reference contracts that bridge differences between credits, as in corn and oil.",
+        "Requiring every credit to be correspondingly adjusted, so that voluntary credits match compliance allowances.",
+        "Creating independent rating agencies to assess each project, as bond markets do for each issuer."
+      ],
+      "answer": 1,
+      "rationales": [
+        "On-site audits emerged in buyer behaviour after the 2023 crisis. They were not a TSVCM recommendation.",
+        "Correct. Among its topics for action, the TSVCM advocated core carbon reference contracts, citing corn, oil and other commodities as markets that standardised despite complex underlying products. The report did not mention fixed income or ratings.",
+        "Corresponding adjustments are an Article 6 accounting issue, not the TSVCM's commodity-style scaling tool.",
+        "Ratings belong to the fixed income view, which the TSVCM report did not reference at all."
+      ],
+      "takeaway": "The TSVCM's reference-contract idea was the commodity paradigm in action.",
+      "source": "BeZero Case p13"
+    },
+    {
+      "id": "q139",
+      "topic": "t9",
+      "week": "BeZero Case",
+      "difficulty": 3,
+      "skill": "diagnose",
+      "stem": "In 2022, traders began pricing project-specific credits at premiums or discounts to a standardised contract such as N-GEO. How did market observers mostly read this 'basis trading'?",
+      "options": [
+        "As proof that the fixed income paradigm had won, since every credit was now priced on its own project risk.",
+        "As a sign of a maturing commodity market, though it also showed exchanges could absorb some differentiation.",
+        "As a sign that standardised contracts were failing, since buyers refused to trade the benchmark contract itself.",
+        "As evidence of manipulation, since premiums over a benchmark showed some traders were cornering the supply."
+      ],
+      "answer": 1,
+      "rationales": [
+        "Basis trading still anchored prices to a standardised benchmark. Observers saw it as commodity-market progress, not a fixed income victory.",
+        "Correct. Exchanges called basis markets a hallmark of developed commodity markets, and the observations were seen as supportive of the commodity paradigm. Basis trading also showed that exchange infrastructure could accommodate some differentiation between credits.",
+        "Reference contract volumes grew strongly in 2022. Basis trading was built on the benchmark, not a rejection of it.",
+        "Nothing in the case links basis trading to manipulation. Premiums reflected attributes such as co-benefits and recent vintages."
+      ],
+      "takeaway": "Basis trading was read as commodity-market maturity, while hinting that differentiation matters.",
+      "source": "BeZero Case pp14-15"
+    },
+    {
+      "id": "q140",
+      "topic": "t9",
+      "week": "BeZero Case",
+      "difficulty": 3,
+      "skill": "diagnose",
+      "stem": "In January 2023, reporting questioned whether many REDD+ credits from one standard represented real reductions. Why did the damage spread to the whole carbon market rather than only to the projects at fault?",
+      "options": [
+        "Under the fixed income view, buffer pools covered every credit, so one project's failure drained all of the pools.",
+        "Under the commodity view, exchanges suspended trading in every contract, so buyers had no way to buy any credit.",
+        "Under the commodity view, credits were treated as alike, so failures in some projects were assumed to apply to all.",
+        "Under the fixed income view, ratings had downgraded all credits together, so buyers saw no safe credits left to buy."
+      ],
+      "answer": 2,
+      "rationales": [
+        "Buffer pools are run by each crediting programme for reversal risk. They are not linked across the market.",
+        "Exchanges did not suspend trading. Prices and liquidity fell sharply as confidence evaporated.",
+        "Correct. Because the prevailing view treated credits as interchangeable, problems in a subset of projects were extrapolated across REDD+ and the whole market. Buyers had no tool to tell good credits from bad, and benchmark prices such as N-GEO collapsed.",
+        "Ratings were not yet widely used, and their logic is to differentiate between credits, not downgrade everything at once."
+      ],
+      "takeaway": "The commodity view let failures in a few projects taint the entire market.",
+      "source": "BeZero Case pp15-16"
+    },
+    {
+      "id": "q141",
+      "topic": "t9",
+      "week": "BeZero Case",
+      "difficulty": 2,
+      "skill": "predict",
+      "stem": "After the 2023 credibility crisis, how did corporate buyers' behaviour change, and what did this signal about market paradigms?",
+      "options": [
+        "They moved most purchases onto exchanges to gain central clearing, a shift toward fully standardised trading.",
+        "They relied more on crediting standards' approval, a shift back to trusting that each methodology was followed.",
+        "They stopped buying credits altogether and switched to allowances, a shift away from using credits at all.",
+        "They stepped up due diligence and paid up for high-integrity credits, moving away from 'all credits are equal'."
+      ],
+      "answer": 3,
+      "rationales": [
+        "Exchange liquidity actually fell sharply after 2022. The shift was toward differentiation, not more standardisation.",
+        "The crisis undermined reliance on 'we followed the methodology'. Buyers looked for more scrutiny, not less.",
+        "Demand fell, but buyers who stayed became more selective. Voluntary buyers generally cannot substitute allowances for their claims.",
+        "Correct. Buyers adopted tougher sourcing policies and even on-site audits. High-integrity credits commanded steep premiums while demand for generic or older credits collapsed, marking a move from the assumption that all credits were equal."
+      ],
+      "takeaway": "Post-2023 buyers differentiated on quality, moving away from the commodity assumption.",
+      "source": "BeZero Case pp2, 17"
+    },
+    {
+      "id": "q142",
+      "topic": "t9",
+      "week": "BeZero Case",
+      "difficulty": 2,
+      "skill": "compare",
+      "stem": "A carbon credit rating and a bond credit rating use similar letter scales. What does each one assess?",
+      "options": [
+        "A carbon rating assesses the risk a credit delivers under a tonne; a bond rating assesses the risk of default.",
+        "A carbon rating assesses whether a credit is CCP-labelled; a bond rating assesses whether a bond is listed.",
+        "A carbon rating assesses the risk the buyer fails to pay; a bond rating assesses price risk.",
+        "A carbon rating assesses a project's finances; a bond rating assesses the issuer's green impact."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Carbon credit rating agencies work much like S&P, Moody's and Fitch, but instead of judging the risk of financial default, they judge the risk that a credit represents less than a tonne of CO2e.",
+        "Labels are binary eligibility marks. Ratings grade risk on a scale, and listing has nothing to do with a bond's rating.",
+        "Carbon ratings concern the credit's environmental delivery, not the buyer's credit risk. Bond ratings address default, not price moves.",
+        "This mixes up the subjects. Carbon ratings concern carbon performance, and bond ratings concern repayment."
+      ],
+      "takeaway": "Carbon ratings grade the risk a credit falls short of a tonne, as bond ratings grade default risk.",
+      "source": "BeZero Case p2, p18"
+    },
+    {
+      "id": "q143",
+      "topic": "t9",
+      "week": "BeZero Case",
+      "difficulty": 3,
+      "skill": "diagnose",
+      "stem": "A critic welcomed ICVCM's Core Carbon Principles but warned against using them to standardise credits fully, commodity-style. What was the main risk they saw?",
+      "options": [
+        "If the label is too strict, too few credits would qualify, and the exchange contracts built on it would lack supply.",
+        "If the label is adopted by governments, voluntary buyers would be barred from purchasing non-labelled credits.",
+        "If a label says every credit is a tonne and some prove not to be, buyer confidence could collapse for good.",
+        "If the label is too loose, rating agencies would lose business, since buyers would rely on the label instead."
+      ],
+      "answer": 2,
+      "rationales": [
+        "Supply constraints were not the argument. The worry was about promising certainty that the label cannot guarantee.",
+        "Government endorsement of CCPs was not presented as a ban on other credits. The risk raised was a confidence backlash.",
+        "Correct. The concern was that a label implying a guaranteed outcome invites critics to expose every flaw. If the CCPs tell everyone to trust the instrument and it is shown otherwise, confidence could be undermined once and for all. Quality is not binary.",
+        "The argument was about market confidence, not protecting the ratings business."
+      ],
+      "takeaway": "A binary label that implies certainty risks a confidence collapse when some labelled credits fail.",
+      "source": "BeZero Case p18"
+    },
+    {
+      "id": "q144",
+      "topic": "t9",
+      "week": "BeZero Case",
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "The case describes a market structure in which disclosure and reporting sit underneath, CCPs set a higher bar, and ratings guide prices above it. What role does each element play?",
+      "options": [
+        "The CCP label and ratings perform the same function, so a market only needs one of them to price credits well.",
+        "The CCP label sets each credit's price, while ratings decide whether credits may be issued.",
+        "Ratings act as the entry threshold, while the CCP label ranks credits that pass from highest to lowest quality.",
+        "The CCP label acts as an entry threshold, while ratings differentiate risk and price above that bar."
+      ],
+      "answer": 3,
+      "rationales": [
+        "The two are complementary: a binary floor plus graded differentiation, not duplicates.",
+        "Labels do not set prices, and ratings do not decide issuance, which is a crediting programme's role.",
+        "This reverses the roles. The label is binary; ratings provide a graded scale.",
+        "Correct. In this vision, the CCP label is a minimum bar for integrity, and transparent ratings price the remaining variation above it. Like bonds, the traded price then reflects the market's collective view of the likelihood that a credit delivers its claim."
+      ],
+      "takeaway": "Label = threshold; ratings = price differentiation above the threshold.",
+      "source": "BeZero Case pp18-19"
+    },
+    {
+      "id": "q145",
+      "topic": "t9",
+      "week": "BeZero Case",
+      "difficulty": 2,
+      "skill": "predict",
+      "stem": "When ratings first appeared, credit prices showed no relationship to rated carbon quality. By 2025, higher-rated credits commanded clear premiums. What does this shift most likely indicate?",
+      "options": [
+        "A maturing market that now prices carbon performance, not just co-benefits and project marketing.",
+        "A shift toward the commodity paradigm, as prices now move together regardless of quality.",
+        "A market where ratings set prices directly, so buyers no longer form their own views on quality.",
+        "A collapse in co-benefits, as projects stopped reporting them once ratings began driving prices."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Early on, without a project-level risk metric, carbon performance did not factor into price; co-benefits and showcasing did. A growing positive correlation between price and rating shows valuation increasingly hinges on quality signals.",
+        "Prices diverging by quality is the opposite of commodity-style uniform pricing.",
+        "Ratings inform prices, but prices still reflect all market participants' views, which is the point of bond-like trading.",
+        "Co-benefits can still matter. The change is that carbon performance now also drives price."
+      ],
+      "takeaway": "A rising price–rating correlation signals that the market has begun pricing carbon quality.",
+      "source": "BeZero Case pp19-20 (Figure 9)"
+    },
+    {
+      "id": "q146",
+      "topic": "t9",
+      "week": "BeZero Case",
+      "difficulty": 3,
+      "skill": "predict",
+      "stem": "A national carbon tax lets liable firms meet part of their obligation with credits that pass a set of top-down eligibility criteria. Under the fixed income view, what is the main risk of this design?",
+      "options": [
+        "Firms will buy only the highest-rated credits, pushing prices so high the scheme becomes unaffordable.",
+        "Firms will stop using credits, since top-down criteria make eligible credits far too scarce.",
+        "Firms must commission their own ratings, duplicating the scheme's criteria and adding cost.",
+        "Firms buy the cheapest eligible credits, and binary criteria imply equal quality, inviting backlash."
+      ],
+      "answer": 3,
+      "rationales": [
+        "The concern is the opposite: firms meeting a compliance bar tend to minimise cost, not seek the best credits.",
+        "Eligibility rules restrict supply, but the case's concern is quality, not scarcity driving firms away.",
+        "Schemes generally do not require ratings. The open question is whether ratings can mature fast enough to be written into such rules.",
+        "Correct. Companies with regulatory liabilities tend to default to the scheme's quality bar and do little extra due diligence. Binary top-down criteria imply quality is binary, which sets the scheme up for backlash when low-quality credits pass the filter."
+      ],
+      "takeaway": "Compliance demand plus binary eligibility recreates commodity-style risks: cheapest-eligible buying and backlash.",
+      "source": "BeZero Case p21"
+    },
+    {
+      "id": "q147",
+      "topic": "t9",
+      "week": "BeZero Case",
+      "difficulty": 3,
+      "skill": "apply",
+      "stem": "An exchange lists a contract deliverable by any credit that meets a binary eligibility rule, such as a CCP label. Ratings show wide quality differences among eligible credits. What does the fixed income view predict?",
+      "options": [
+        "The contract will not trade, since exchanges cannot list credits that ratings have differentiated.",
+        "Prices across eligible credits will converge, since the label makes them interchangeable to buyers.",
+        "Sellers will deliver the weakest eligible credits, so the contract trades at a discount in quality.",
+        "Sellers will deliver the strongest eligible credits, as the label obliges them to supply their best."
+      ],
+      "answer": 2,
+      "rationales": [
+        "Such contracts can and do trade. The issue is what they end up delivering.",
+        "Wide rating spreads mean buyers price eligible credits differently, so prices diverge rather than converge.",
+        "Correct. A binary rule treats all eligible credits as equal, but they are not. On a cheapest-to-deliver basis, sellers hand over the lowest-quality eligible credits, dragging the contract's value toward the weakest end of the pool.",
+        "The label sets a minimum, not an obligation to deliver the best. Sellers keep their stronger credits to sell at a premium."
+      ],
+      "takeaway": "Binary eligibility plus cheapest-to-deliver pulls standardised contracts toward the weakest eligible credits.",
+      "source": "BeZero Case pp18, 25 (Exhibit C); W10 p13-14"
+    },
+    {
+      "id": "q148",
+      "topic": "t9",
+      "week": "BeZero Case",
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "A rating analyst finds that a landfill operator has been deliberately increasing the waste it accepts in order to earn more from its gas-to-energy credits. Which risk factor does this illustrate?",
+      "options": [
+        "Perverse incentives, since credit revenue rewards behaviour that undermines carbon effectiveness.",
+        "Leakage, since the extra waste shifts emissions from other sites to outside the project boundary.",
+        "Policy and political risk, since landfill regulation may later force the operator to cut volumes.",
+        "Non-permanence, since the captured methane could later escape back into the atmosphere from the landfill."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Perverse incentives arise when project benefits, such as offset revenues, encourage behaviour that reduces the project's carbon effectiveness. Increasing waste to earn more credits is the textbook example.",
+        "Leakage pushes avoided emissions outside the boundary. Here the revenue itself is driving the harmful behaviour.",
+        "Policy risk concerns the regulatory environment's effect on additionality, not the operator's own revenue-driven choices.",
+        "Non-permanence concerns stored or avoided carbon being re-emitted, not incentives distorting behaviour."
+      ],
+      "takeaway": "Perverse incentives: credit revenue rewards behaviour that weakens real climate outcomes.",
+      "source": "BeZero Case pp10-11 (Table 2)"
+    },
+    {
+      "id": "q149",
+      "topic": "t9",
+      "week": "BeZero Case",
+      "difficulty": 2,
+      "skill": "diagnose",
+      "stem": "A project's baseline assumes far more deforestation than would realistically have occurred, so it issues more credits than the tonnes it actually saved. Which risk factor is this?",
+      "options": [
+        "Over-crediting, since an unrealistic baseline leads to more credits being issued than tonnes achieved.",
+        "Non-permanence, since the protected forest could later burn and release the carbon it was credited for.",
+        "Leakage, since deforestation avoided in the project area simply moved to forests just outside its boundary.",
+        "Additionality, since the project would have gone ahead anyway without any revenue from selling credits."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Over-crediting is the risk that more credits are issued than tonnes achieved, often because of unrealistic baseline assumptions. It hinges on choosing the most credible baseline.",
+        "Non-permanence concerns later reversal. The problem here exists from the moment of issuance.",
+        "Leakage would mean emissions shifting elsewhere. The scenario describes an inflated baseline, not displacement.",
+        "Additionality asks whether the activity would have happened anyway. This scenario concerns how many credits a real activity earned."
+      ],
+      "takeaway": "An inflated baseline causes over-crediting: more credits than real tonnes.",
+      "source": "BeZero Case p10 (Table 2)"
+    },
+    {
+      "id": "q150",
+      "topic": "t9",
+      "week": "BeZero Case",
+      "difficulty": 3,
+      "skill": "apply",
+      "stem": "An investor is considering funding a project that has not yet issued any credits. How does an ex-ante rating differ from an ex-post rating in what it must assess?",
+      "options": [
+        "It drops the assessment of carbon efficacy, since nothing can be known about a project before it issues.",
+        "It assesses only the methodology chosen, since project-specific risks only appear after verification.",
+        "It adds project execution risk to the assessment of carbon efficacy, since the credits do not exist yet.",
+        "It replaces carbon efficacy with financial default risk, since early-stage projects behave like corporate debt."
+      ],
+      "answer": 2,
+      "rationales": [
+        "Carbon efficacy is still assessed ex ante. The difference is that execution risk is added on top.",
+        "Project-specific risks are central to ex-ante assessment. A methodology-only view is closer to top-down screening.",
+        "Correct. Ex-ante ratings combine a project's carbon efficacy with its execution risk, the risk it never delivers credits at all. This mirrors the lifecycle view that non-delivery risk is highest early on.",
+        "Ratings remain about carbon performance and delivery, not corporate credit default."
+      ],
+      "takeaway": "Ex-ante ratings = carbon efficacy + execution risk, for credits not yet issued.",
+      "source": "BeZero Case p20; W10 p20"
+    },
+    {
+      "id": "q151",
+      "topic": "t6",
+      "week": 9,
+      "difficulty": 3,
+      "skill": "predict",
+      "stem": "A developer needs long-term finance for a 25-year forestry project, backed by forward offtake agreements. Why does legal certainty over what a credit is matter especially to this developer?",
+      "options": [
+        "Legal certainty removes reversal risk, since a court can order that burnt forest carbon be restored.",
+        "Legal certainty lets the developer skip validation, since property status proves that the credits are real.",
+        "Legal certainty fixes the credit price for 25 years, since property law sets the value of each tonne.",
+        "Enforceable security, trusts and forward offtakes drive bankability, which long-payback projects need."
+      ],
+      "answer": 3,
+      "rationales": [
+        "Reversal is a physical risk managed by buffers and insurance. Courts cannot restore lost carbon.",
+        "Property status concerns the legal nature of credits. It has no bearing on validation or on whether reductions are real.",
+        "Legal status does not fix market prices. Price risk is managed through contract terms and hedging.",
+        "Correct. Certainty matters because enforceable security, trusts and forward offtakes drive bankability, and long horizons strain risk and return. Lenders to a long-payback project need confidence that their security over future credits will hold."
+      ],
+      "takeaway": "Legal certainty matters most where finance depends on enforceable security over future credits.",
+      "source": "W9 p31, p34"
+    },
+    {
+      "id": "q152",
+      "topic": "t7",
+      "week": 10,
+      "difficulty": 2,
+      "skill": "apply",
+      "stem": "A buyer wants credits from one named project with a specific vintage, plus a clause requiring replacement credits if delivery fails. Which route suits it better, and why?",
+      "options": [
+        "A retail platform, since curated marketplaces guarantee replacement credits for any failed project delivery.",
+        "An OTC deal, since bilateral terms can name the project ID and vintage and add carbon-specific clauses.",
+        "An exchange contract, since central clearing lets the buyer nominate the exact project and vintage it wants.",
+        "An exchange contract, since standardised contracts always include replacement credits in their terms."
+      ],
+      "answer": 1,
+      "rationales": [
+        "Platforms curate and retire credits but do not offer bespoke replacement guarantees on a named project.",
+        "Correct. OTC trades are bilateral, so the parties can specify project ID and vintage and include carbon-specific provisions such as replacement credits. Exchanges trade standardised contracts in which the seller typically chooses the eligible credit.",
+        "Exchange contracts are standardised, often cheapest-to-deliver, so the buyer usually cannot pick the project. Clearing addresses counterparty risk, not choice.",
+        "Standardised contracts define eligibility criteria. Bespoke replacement clauses are a feature of OTC agreements."
+      ],
+      "takeaway": "Need a specific project, vintage or bespoke clause? Go OTC. Need liquidity and clearing? Go exchange.",
+      "source": "W10 p10, p12-13"
+    },
+    {
+      "id": "q153",
+      "topic": "t8",
+      "week": 10,
+      "difficulty": 3,
+      "skill": "compare",
+      "stem": "Which pairing correctly matches a risk management tool with one of its key limits?",
+      "options": [
+        "Buffer pools: the system insures itself, so correlated losses like regional wildfires can drain it.",
+        "Buffer pools: they cover political risk well, but reduce the number of credits the project can sell.",
+        "ERPA clauses: they cannot allocate price risk, since prices are set by the market rather than the contract.",
+        "Insurance: it covers price risk well, but cannot cover political risks such as a revoked authorisation."
+      ],
+      "answer": 0,
+      "rationales": [
+        "Correct. Buffers are self-insurance within the crediting programme, so correlated losses, such as wildfires using up much of a buffer meant to last a century, are their key weakness.",
+        "The cost point is right, since buffer credits cannot be sold, but buffers cover reversal, not political risk.",
+        "Price terms such as fixed, floor or index-linked pricing allocate price risk. The limits of contracts are a counterparty's ability to pay and clauses that excuse performance.",
+        "This reverses it. Insurance products cover political risk, including a revoked LoA, while price risk is excluded."
+      ],
+      "takeaway": "Contracts depend on the counterparty; buffers suffer correlated losses; insurance is limited to its terms and excludes price.",
+      "source": "W10 p24, p26, p28; p34 recap 3-4"
     }
   ]
 }

@@ -58,6 +58,9 @@
     for (var i = 0; i < DATA.topics.length; i++) if (DATA.topics[i].id === id) return DATA.topics[i].name;
     return id;
   }
+  function weekLabel(w) {
+    return typeof w === "number" ? "Week " + w : String(w);
+  }
   function byId(id) {
     for (var i = 0; i < DATA.questions.length; i++) if (DATA.questions[i].id === id) return DATA.questions[i];
     return null;
@@ -133,7 +136,7 @@
       return '<label class="check"><input type="checkbox" data-topic="' + t.id + '"' +
         (cfg.topics[t.id] ? " checked" : "") + '>' +
         '<span><span class="t">' + esc(t.name) + "</span><br>" +
-        '<span class="c">Week ' + t.week + " · " + counts[t.id] + " questions · " +
+        '<span class="c">' + esc(weekLabel(t.week)) + " · " + counts[t.id] + " questions · " +
         (hardCounts[t.id] || 0) + " hard</span></span></label>";
     }).join("");
 
@@ -150,6 +153,7 @@
             '<button type="button" data-sel="w6">Week 6</button>' +
             '<button type="button" data-sel="w9">Week 9</button>' +
             '<button type="button" data-sel="w10">Week 10</button>' +
+            '<button type="button" data-sel="wBeZero Case">BeZero Case</button>' +
           "</div>" +
         "</div>" +
       "</div>" +
@@ -280,7 +284,7 @@
         '<div class="qmeta">' +
           "<span>Question " + (S.i + 1) + " of " + S.items.length + "</span>" +
           '<span class="tag">' + esc(topicName(q.topic)) + "</span>" +
-          '<span class="tag">Week ' + q.week + "</span>" +
+          '<span class="tag">' + esc(weekLabel(q.week)) + "</span>" +
           '<span class="tag' + (q.difficulty === 3 ? " d3" : "") + '">' +
             (q.difficulty === 3 ? "Hard" : q.difficulty === 2 ? "Standard" : "Core") + "</span>" +
           (S.mode === "exam" ? '<span class="tag">Exam mode</span>' : "") +

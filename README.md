@@ -1,11 +1,12 @@
 # BF3122 — Applied Concept Quiz 2
 
-A self-quizzing tool for **BF3122 Carbon Markets**, covering Weeks 6, 9 and 10 (Quiz 2 scope).
+A self-quizzing tool for **BF3122 Carbon Markets**, covering Weeks 6, 9 and 10 plus the BeZero Carbon case (Quiz 2 scope).
 The Quiz 1 version (Weeks 1–4) lives at [bf3122-carbon-markets-quiz](https://github.com/test2run/bf3122-carbon-markets-quiz).
 
-**130 multiple-choice questions** (47 of them hard). Every one tests applied or conceptual understanding: working out an
+**153 multiple-choice questions** (64 of them hard). Every one tests applied or conceptual understanding: working out an
 airline's CORSIA obligation on a given route, classifying a company's claim, picking the ERPA clause or
-insurance product for a stated risk, or judging which law governs a disputed credit. No question asks you
+insurance product for a stated risk, judging which law governs a disputed credit, or applying the commodity
+and fixed income views of the market to past events and future schemes. No question asks you
 to recall a statistic for its own sake. Where numbers appear, they are scenario inputs to reason with.
 
 Options are written to compete with each other. The correct answer is the longest option about as often
@@ -22,7 +23,7 @@ Keyboard: <kbd>1</kbd>–<kbd>4</kbd> to answer, <kbd>←</kbd> <kbd>→</kbd> t
 
 ## Topics
 
-Mapped to the recap slide that closes each lecture:
+Mapped to the recap slide that closes each lecture, plus the BeZero case:
 
 | # | Topic | Week | Qs |
 |---|---|---|---|
@@ -31,11 +32,13 @@ Mapped to the recap slide that closes each lecture:
 | 3 | Eligible units, fuels, criticisms & the EU | 6 | 17 |
 | 4 | Claims, greenwashing & claim vocabulary | 9 | 13 |
 | 5 | VCMI & SBTi standards | 9 | 18 |
-| 6 | Government guidance & legal nature of credits | 9 | 15 |
-| 7 | Transaction pathways | 10 | 16 |
-| 8 | Risk, contracts & insurance | 10 | 27 |
+| 6 | Government guidance & legal nature of credits | 9 | 16 |
+| 7 | Transaction pathways | 10 | 17 |
+| 8 | Risk, contracts & insurance | 10 | 28 |
+| 9 | BeZero Case & Commodity vs Fixed Income view | Case | 20 |
 
-Content is drawn from the lecture slides and their annotations. Material flagged in class as "must
+Content is drawn from the lecture slides and their annotations, the BeZero Carbon case, and the
+professor's Quiz 2 revision checklist. Material flagged in class as "must
 know" or "may be tested", boxed in red, or starred gets more weight. Material marked NT (not tested) is
 left out. A couple of hard questions deliberately go beyond the slides on EU ETS/CORSIA edge cases;
 their source line says so.
@@ -54,7 +57,7 @@ To edit or add a question, edit `questions.json` only. Each entry:
 {
   "id": "q001",
   "topic": "t1",            // matches topics[].id
-  "week": 6,
+  "week": 6,               // number, or a label such as "BeZero Case"
   "difficulty": 2,          // 1 core · 2 standard · 3 hard
   "skill": "apply",         // apply | compare | predict | diagnose
   "stem": "…",
