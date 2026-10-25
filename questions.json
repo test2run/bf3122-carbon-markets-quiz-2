@@ -274,7 +274,7 @@
       "rationales": [
         "Correct. The Second Phase (2027–2035) is mandatory for member States unless an exemption applies, such as low RTK share or LDC, SIDS or LLDC status. These four are captured from 2027, whether or not they consent.",
         "Offsetting needs both States on the route to participate. One participating State only creates MRV duties.",
-        "The EU proposal concerns where flights land relative to the EU, and São Paulo is far beyond 5,000 km. It is also only a proposal. Lisbon's distance from Frankfurt is irrelevant.",
+        "The EU proposal covers flights departing the EU that land within 5,000 km, and São Paulo is far beyond that in either direction. It is also only a proposal. Lisbon's distance from Frankfurt is irrelevant.",
         "ICAO has no enforcement mechanism of its own. Penalties are left to individual States, which is one of the main criticisms of CORSIA."
       ],
       "takeaway": "The Second Phase is mandatory from 2027, which captures the large non-volunteers unless they are exempt.",
@@ -723,22 +723,22 @@
       "week": 6,
       "difficulty": 3,
       "skill": "predict",
-      "stem": "If the European Commission's July 2026 proposal becomes law, how would Dubai–Frankfurt (about 4,850 km) and Singapore–Frankfurt (about 9,000 km) be treated from 2029?",
+      "stem": "If the European Commission's July 2026 proposal becomes law, how would flights between Frankfurt and Dubai (about 4,850 km apart) be treated from 2029?",
       "options": [
-        "Singapore–Frankfurt would come under the EU ETS, while Dubai–Frankfurt would stay under CORSIA alone.",
-        "Neither would change, since the proposal only writes CORSIA into EU law and leaves the ETS scope as is.",
-        "Dubai–Frankfurt would come under the EU ETS, while Singapore–Frankfurt would stay under CORSIA alone.",
-        "Both would come under the EU ETS, since the proposal restores full scope to all flights to and from the EU."
+        "Dubai→Frankfurt would enter the EU ETS, while the outbound Frankfurt→Dubai leg would stay under CORSIA.",
+        "Neither direction would change, since the proposal only writes CORSIA into EU law and leaves ETS scope as is.",
+        "Frankfurt→Dubai would enter the EU ETS, while the return Dubai→Frankfurt leg would stay under CORSIA.",
+        "Both directions would enter the EU ETS, since Dubai sits inside the 5,000 km radius whichever way you fly."
       ],
       "answer": 2,
       "rationales": [
-        "This reverses the distance logic. The extension captures the nearer destination, not the farther one.",
-        "The proposal does both: it extends the ETS to the 5,000 km band and writes CORSIA into EU law to 2035.",
-        "Correct. The proposal extends the EU ETS from 2029 to flights landing within 5,000 km of the EU. Dubai is inside that radius; Singapore is beyond it and stays with CORSIA.",
-        "The Commission chose a narrow response, not full scope. Flights beyond 5,000 km stay outside the EU ETS."
+        "This reverses the direction. The extension is defined by where a flight lands. An inbound flight always lands in the EU, so the 5,000 km test only bites on flights departing the EU.",
+        "The proposal does both: it extends the ETS to departing flights within 5,000 km and writes CORSIA into EU law to 2035.",
+        "Correct. The proposal extends the EU ETS from 2029 to flights departing the EU that land within 5,000 km of it, measured from Frankfurt. Frankfurt→Dubai qualifies; the inbound Dubai→Frankfurt leg is not caught by the extension and stays with CORSIA. A flight to Singapore (about 9,000 km) would stay with CORSIA in both directions.",
+        "Distance alone is not the test. The extension covers departing flights landing within the radius, so direction matters as well as distance."
       ],
-      "takeaway": "The 2029 proposal adds flights within 5,000 km to the EU ETS; longer flights stay with CORSIA.",
-      "source": "W6 p26"
+      "takeaway": "The 2029 proposal covers flights departing the EU to destinations within 5,000 km; inbound legs and longer flights stay with CORSIA.",
+      "source": "W6 p26 (\"flights landing within 5,000 km\")"
     },
     {
       "id": "q031",
@@ -751,16 +751,16 @@
         "It withdrew from CORSIA, so EEA airlines no longer need to cancel emissions units on any of their routes.",
         "It deferred any change until ICAO's next review, so intra-EEA coverage stays the only aviation measure.",
         "It restored full scope at once, so all flights to and from the EEA come under the EU ETS from 2027.",
-        "It proposed a partial extension of the EU ETS to flights within 5,000 km from 2029, rather than full scope."
+        "It proposed extending the ETS from 2029 to departing flights landing within 5,000 km, not full scope."
       ],
       "answer": 3,
       "rationales": [
         "The EU did the opposite of withdrawing: it proposed writing CORSIA into EU law until 2035.",
         "The Commission did act, through a formal proposal. It did not wait for ICAO's next review.",
         "Failing both tests could have justified restoring full scope, but the Commission chose a narrower route. It is also only a proposal, not yet law.",
-        "Correct. Coverage fell below 70% and ICAO had not strengthened ambition, so both tests failed. The response was narrow: a proposal to extend to the 5,000 km band from 2029 while writing CORSIA into EU law to 2035. Agreement is targeted for early 2027."
+        "Correct. Coverage fell below 70% and ICAO had not strengthened ambition, so both tests failed. The response was narrow: a proposal to extend the ETS from 2029 to flights departing the EU to destinations within 5,000 km, while writing CORSIA into EU law to 2035. Agreement is targeted for early 2027."
       ],
-      "takeaway": "Article 28b tests failed in July 2026, but the EU's response was a narrow 5,000 km extension, not full scope.",
+      "takeaway": "Article 28b tests failed in July 2026, but the EU's response was a narrow extension to departing flights within 5,000 km, not full scope.",
       "source": "W6 p26 (sequence of events)"
     },
     {
